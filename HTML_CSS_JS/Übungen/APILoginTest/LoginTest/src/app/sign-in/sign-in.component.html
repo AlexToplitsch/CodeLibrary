@@ -1,0 +1,24 @@
+<section>
+    <div class="demoContent">
+        <div class="logbox">
+            <div class="form">
+                <h2>SIGN IN</h2>
+                <form #loginForm="ngForm" (ngSubmit)="signIn()" action="">
+                    <div class="inputBox">
+                        <input name="email" [(ngModel)]="registerModel.username" required type="email" placeholder="E-Mail">
+                        <img src="assets/user.ico">
+                    </div>
+                    <div class="inputBox">
+                        <input name="password" [(ngModel)]="registerModel.password" required type="password" placeholder="Password">
+                        <img src="assets/lock.ico">
+                    </div>
+                    <label class="remember" for=""><input type="checkbox">Remember Me</label>
+                    <div class="inputBox">
+                        <input type="submit" value="Sign In">
+                    </div>
+                    <p *ngIf="error"class="invalid">User already exists!</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

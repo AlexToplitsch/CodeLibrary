@@ -1,0 +1,26 @@
+<section>
+    <div class="demoContent">
+        <div class="logbox">
+            <div class="form">
+                <h2>LOGIN</h2>
+                <form #loginForm="ngForm" (ngSubmit)="logIn()" action="">
+                    <div class="inputBox">
+                        <input name="email" [(ngModel)]="usermodel.username" required type="email" placeholder="E-Mail">
+                        <img src="assets/user.ico">
+                    </div>
+                    <div class="inputBox">
+                        <input name="password" [(ngModel)]="usermodel.password" required type="password" placeholder="Password">
+                        <img src="assets/lock.ico">
+                    </div>
+                    <label class="remember" for=""><input type="checkbox">Remember Me</label>
+                    <div class="inputBox">
+                        <input type="submit" value="Login">
+                    </div>
+                </form>
+                <p>Forget <a href="#" >Password</a></p>
+                <p>Need an <a [routerLink]="" (click)="register()">Account</a></p>
+                <p *ngIf="error"class="invalid">You shall not pass!</p>
+            </div>
+        </div>
+    </div>
+</section>
