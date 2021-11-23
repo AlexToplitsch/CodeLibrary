@@ -1,1 +1,0 @@
-INDEX VERSION 1.130+D:\python\Projekte\Knapp_Apprentice_Training\.metadata\.plugins\org.eclipse.jdt.core
