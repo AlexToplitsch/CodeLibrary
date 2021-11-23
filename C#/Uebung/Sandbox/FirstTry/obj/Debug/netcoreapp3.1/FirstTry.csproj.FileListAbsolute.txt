@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\bin\Debug\netcoreapp3.1\FirstTry.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\bin\Debug\netcoreapp3.1\FirstTry.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\bin\Debug\netcoreapp3.1\FirstTry.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\bin\Debug\netcoreapp3.1\FirstTry.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\bin\Debug\netcoreapp3.1\FirstTry.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\bin\Debug\netcoreapp3.1\FirstTry.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\obj\Debug\netcoreapp3.1\FirstTry.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\obj\Debug\netcoreapp3.1\FirstTry.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\obj\Debug\netcoreapp3.1\FirstTry.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\obj\Debug\netcoreapp3.1\FirstTry.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\obj\Debug\netcoreapp3.1\FirstTry.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\obj\Debug\netcoreapp3.1\FirstTry.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\FirstTry\obj\Debug\netcoreapp3.1\FirstTry.genruntimeconfig.cache

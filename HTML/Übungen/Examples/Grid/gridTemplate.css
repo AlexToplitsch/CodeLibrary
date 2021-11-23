@@ -1,0 +1,46 @@
+html, body{
+    padding: 0 0 7px 0;
+    box-sizing: border-box;
+    height: 100%;
+    background: rgb(63, 55, 55);
+}
+
+.container > div{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:  50px auto 50px;
+    grid-template-areas:
+        "m h h h h h h h h h h h"
+        "m c c c c c c c c c c c"
+        "m f f f f f f f f f f f";
+}
+
+.header{
+    grid-area: h;
+    background: rgb(75, 78, 49);
+}
+
+.menu{
+    grid-area: m;
+    background: rgb(71, 131, 118);
+}
+
+.content{
+    border-radius: 1000px;
+    grid-area: c;
+    background: rgb(91, 89, 124);
+}
+
+.footer{
+    grid-area: f;
+    background: rgb(178, 185, 110);
+}

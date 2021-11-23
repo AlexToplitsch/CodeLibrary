@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "aZJx/nyYPxeVKb7OLx5AKDYPySFmI3EfVRLvllmRJ0azzakTalHFeGK+Y0cFYFQYER1PaZWPPNlWee1XE7E0kA==",
+  "success": true,
+  "projectFilePath": "D:\\Programme\\C#\\Übungen\\PlotDemo\\PlotDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\toplitsc\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\toplitsc\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\toplitsc\\.nuget\\packages\\opencvsharp4\\4.5.0.20201013\\opencvsharp4.4.5.0.20201013.nupkg.sha512",
+    "C:\\Users\\toplitsc\\.nuget\\packages\\opencvsharp4.runtime.win\\4.5.0.20201013\\opencvsharp4.runtime.win.4.5.0.20201013.nupkg.sha512",
+    "C:\\Users\\toplitsc\\.nuget\\packages\\opencvsharp4.windows\\4.5.0.20201013\\opencvsharp4.windows.4.5.0.20201013.nupkg.sha512",
+    "C:\\Users\\toplitsc\\.nuget\\packages\\scottplot\\4.0.42\\scottplot.4.0.42.nupkg.sha512",
+    "C:\\Users\\toplitsc\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\toplitsc\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\toplitsc\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

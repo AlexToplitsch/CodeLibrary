@@ -1,0 +1,13 @@
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\bin\Debug\netcoreapp3.1\BinaryTree.exe
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\bin\Debug\netcoreapp3.1\BinaryTree.deps.json
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\bin\Debug\netcoreapp3.1\BinaryTree.runtimeconfig.json
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\bin\Debug\netcoreapp3.1\BinaryTree.runtimeconfig.dev.json
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\bin\Debug\netcoreapp3.1\BinaryTree.dll
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\bin\Debug\netcoreapp3.1\BinaryTree.pdb
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\obj\Debug\netcoreapp3.1\BinaryTree.csprojAssemblyReference.cache
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\obj\Debug\netcoreapp3.1\BinaryTree.AssemblyInfoInputs.cache
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\obj\Debug\netcoreapp3.1\BinaryTree.AssemblyInfo.cs
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\obj\Debug\netcoreapp3.1\BinaryTree.csproj.CoreCompileInputs.cache
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\obj\Debug\netcoreapp3.1\BinaryTree.dll
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\obj\Debug\netcoreapp3.1\BinaryTree.pdb
+D:\Programme\C#\Übungen\BinaryTree\BinaryTree\obj\Debug\netcoreapp3.1\BinaryTree.genruntimeconfig.cache

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="kat_presence" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="09ac33c4-f140-463e-97ae-dec6d8df88c3">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SQListe-KAT.db"/>
+	<queryString language="SQL">
+		<![CDATA[select * from kat_presence]]>
+	</queryString>
+	<field name="Kuerzel" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Kuerzel"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_presence"/>
+	</field>
+	<field name="Abwesenheitsgrund" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Abwesenheitsgrund"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_presence"/>
+	</field>
+	<field name="Benutzername" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Benutzername"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_presence"/>
+	</field>
+	<field name="Aenderung" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Aenderung"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_presence"/>
+	</field>
+	<group name="Kuerzel">
+		<groupExpression><![CDATA[$F{Kuerzel}]]></groupExpression>
+	</group>
+	<group name="Abwesenheitsgrund">
+		<groupExpression><![CDATA[$F{Abwesenheitsgrund}]]></groupExpression>
+	</group>
+	<group name="Benutzername">
+		<groupExpression><![CDATA[$F{Benutzername}]]></groupExpression>
+	</group>
+	<group name="Aenderung">
+		<groupExpression><![CDATA[$F{Aenderung}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="56" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Transparent" x="181" y="-1" width="207" height="45" backcolor="rgba(204, 204, 204, 0.73333335)" uuid="d3f895fc-1f71-49fe-b132-31bc39ef8ce3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="25" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Presence]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="3" width="130" height="43" uuid="472fc97a-bfa6-4ba8-81c0-75047b730fb1"/>
+				<imageExpression><![CDATA["../Knapp_Apprentice_Training/_Symbole/UsedSymbols/Knapp_Logo.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="38" splitType="Stretch">
+			<rectangle radius="0">
+				<reportElement mode="Opaque" x="-21" y="2" width="595" height="28" backcolor="#C7C7C7" uuid="83417915-fcba-4234-875c-141452cc2598"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="417" y="7" width="138" height="30" uuid="697fd3fd-277d-43ab-88bf-db19c2f0458c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="88aa420d-a47f-41d4-9359-f0e7c0ecdfe2"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Änderung]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="275" y="7" width="124" height="30" uuid="430f9a3f-9b5e-4f1c-84ff-45e63d6a5ba6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="edb1b6c7-8121-4e3f-b285-103c4e49fe94"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Benutzername]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="7" width="80" height="30" uuid="a240cd73-04e5-4dcc-ab66-2d503ffd6257">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3ace4108-5a83-4e0b-bb51-5662f2215897"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Kürzel]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="109" y="7" width="139" height="30" uuid="a064a30d-9a9a-4761-8431-849508035fb2">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7f94baa4-2834-42b0-92fa-fb3cf3f709f6"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Abwesenheitsgrund]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="32" splitType="Stretch">
+			<textField>
+				<reportElement x="6" y="0" width="58" height="30" uuid="ea398c02-e550-4ffa-ae88-d050d6f574b7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3ace4108-5a83-4e0b-bb51-5662f2215897"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Kuerzel}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="109" y="0" width="138" height="30" uuid="9af75feb-93b7-42ca-a18d-1e806e37497c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7f94baa4-2834-42b0-92fa-fb3cf3f709f6"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Abwesenheitsgrund}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="279" y="0" width="138" height="30" uuid="5135b1db-124c-44df-9225-a719fedcf950">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="edb1b6c7-8121-4e3f-b285-103c4e49fe94"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Benutzername}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="417" y="0" width="138" height="30" uuid="13d15bf5-2f46-4401-aa03-546f67b4aef6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="88aa420d-a47f-41d4-9359-f0e7c0ecdfe2"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Aenderung}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="8" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

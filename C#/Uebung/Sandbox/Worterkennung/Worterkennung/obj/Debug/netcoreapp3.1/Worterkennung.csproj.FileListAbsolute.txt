@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\bin\Debug\netcoreapp3.1\Worterkennung.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\bin\Debug\netcoreapp3.1\Worterkennung.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\bin\Debug\netcoreapp3.1\Worterkennung.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\bin\Debug\netcoreapp3.1\Worterkennung.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\bin\Debug\netcoreapp3.1\Worterkennung.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\bin\Debug\netcoreapp3.1\Worterkennung.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\obj\Debug\netcoreapp3.1\Worterkennung.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\obj\Debug\netcoreapp3.1\Worterkennung.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\obj\Debug\netcoreapp3.1\Worterkennung.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\obj\Debug\netcoreapp3.1\Worterkennung.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\obj\Debug\netcoreapp3.1\Worterkennung.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\obj\Debug\netcoreapp3.1\Worterkennung.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Worterkennung\Worterkennung\obj\Debug\netcoreapp3.1\Worterkennung.genruntimeconfig.cache

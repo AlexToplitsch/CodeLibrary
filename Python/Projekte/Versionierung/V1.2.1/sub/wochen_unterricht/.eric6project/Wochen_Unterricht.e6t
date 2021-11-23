@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project Wochen_Unterricht -->
+<!-- Saved: 2020-12-01, 14:02:29 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{e20bf83a-e6b9-41ab-a904-288fa206d5a9}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-12-01, 12:24:39</Created>
+    <Resource>
+      <Filename>hinzufuegen_Plan.py</Filename>
+      <Linenumber>38</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{754a6808-e4c1-49c3-b3d2-c2b280687d95}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-12-01, 12:24:39</Created>
+    <Resource>
+      <Filename>hinzufuegen_Plan.py</Filename>
+      <Linenumber>132</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{05143179-0a0d-466f-ae06-672c61c34924}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-12-01, 12:24:39</Created>
+    <Resource>
+      <Filename>hinzufuegen_Plan.py</Filename>
+      <Linenumber>139</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{6b1187ae-7a5a-43da-b40a-3e43b096d24b}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-12-01, 12:24:54</Created>
+    <Resource>
+      <Filename>Wochen_Unterricht.py</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7827ed00-6917-427e-a1a9-8db456383271}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-12-01, 12:24:54</Created>
+    <Resource>
+      <Filename>Wochen_Unterricht.py</Filename>
+      <Linenumber>40</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8f4dfd50-ce32-4e4e-88e9-0eb2b7348068}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-12-01, 12:24:54</Created>
+    <Resource>
+      <Filename>Wochen_Unterricht.py</Filename>
+      <Linenumber>59</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

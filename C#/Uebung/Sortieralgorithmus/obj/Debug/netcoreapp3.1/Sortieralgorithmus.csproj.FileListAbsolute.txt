@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\bin\Debug\netcoreapp3.1\Sortieralgorithmus.exe
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\bin\Debug\netcoreapp3.1\Sortieralgorithmus.deps.json
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\bin\Debug\netcoreapp3.1\Sortieralgorithmus.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\bin\Debug\netcoreapp3.1\Sortieralgorithmus.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\bin\Debug\netcoreapp3.1\Sortieralgorithmus.dll
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\bin\Debug\netcoreapp3.1\Sortieralgorithmus.pdb
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\obj\Debug\netcoreapp3.1\Sortieralgorithmus.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\obj\Debug\netcoreapp3.1\Sortieralgorithmus.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\obj\Debug\netcoreapp3.1\Sortieralgorithmus.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\obj\Debug\netcoreapp3.1\Sortieralgorithmus.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\obj\Debug\netcoreapp3.1\Sortieralgorithmus.dll
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\obj\Debug\netcoreapp3.1\Sortieralgorithmus.pdb
+D:\IT-Unterricht\Programme\C#\Sortieralgorithmus\obj\Debug\netcoreapp3.1\Sortieralgorithmus.genruntimeconfig.cache

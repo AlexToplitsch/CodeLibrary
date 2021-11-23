@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Unterrichtsthemen</class>
+ <widget class="QDialog" name="Unterrichtsthemen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>632</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ausbildungsthemen</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>611</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="title">
+    <string>Ausbildungsthemen</string>
+   </property>
+   <widget class="QLineEdit" name="le_name">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>541</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Name:</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tw_anzeige">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>611</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_excel">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>80</y>
+      <width>71</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Excel</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../_Symbole/UsedSymbols/microsoft_excel_icon_132212.ico</normaloff>../../_Symbole/UsedSymbols/microsoft_excel_icon_132212.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_back">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>80</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hauptmenü</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../_Symbole/UsedSymbols/log-out_icon-icons.com_50106.ico</normaloff>../../_Symbole/UsedSymbols/log-out_icon-icons.com_50106.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_delete">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>80</y>
+      <width>71</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Löschen</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../_Symbole/UsedSymbols/seo-social-web-network-internet_262_icon-icons.com_61518.ico</normaloff>../../_Symbole/UsedSymbols/seo-social-web-network-internet_262_icon-icons.com_61518.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_report">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>80</y>
+      <width>71</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Report</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../_Symbole/UsedSymbols/reporting_noun_report_document_file_icon_148360.ico</normaloff>../../_Symbole/UsedSymbols/reporting_noun_report_document_file_icon_148360.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_hilfe">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>80</y>
+      <width>71</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hilfe</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../_Symbole/UsedSymbols/info_13213.ico</normaloff>../../_Symbole/UsedSymbols/info_13213.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_suchen">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>71</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Suchen</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../_Symbole/UsedSymbols/searchmagnifierinterfacesymbol1_79893.ico</normaloff>../../_Symbole/UsedSymbols/searchmagnifierinterfacesymbol1_79893.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_speichern">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>80</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Speichern</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../_Symbole/UsedSymbols/save_3621.ico</normaloff>../../_Symbole/UsedSymbols/save_3621.ico</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="lab_INFO">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>394</y>
+     <width>611</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

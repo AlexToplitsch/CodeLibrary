@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="kat_auswertung_wochen_unterricht" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b41b23ee-b909-4786-bb1a-3d030da1074f">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SQListe-KAT.db"/>
+	<queryString language="SQL">
+		<![CDATA[select * from kat_wochen_unterricht]]>
+	</queryString>
+	<field name="Woche" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Woche"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Tag" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Tag"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Zeile" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Zeile"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="von_bis" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="von_bis"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Unterrichtsthema" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Unterrichtsthema"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Ausbilder" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Ausbilder"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Platz_Raum" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Platz_Raum"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Klassen" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Klassen"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Lehrlinge" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Lehrlinge"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Informationen" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Informationen"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Ausbildungsthema_1" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Ausbildungsthema_1"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Ausbildungsthema_2" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Ausbildungsthema_2"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Ausbildungsthema_3" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Ausbildungsthema_3"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Benutzer" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Benutzer"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Aenderung" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Aenderung"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<field name="Datum" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Datum"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht"/>
+	</field>
+	<group name="Woche">
+		<groupExpression><![CDATA[$F{Woche}]]></groupExpression>
+	</group>
+	<group name="Tag">
+		<groupExpression><![CDATA[$F{Tag}]]></groupExpression>
+	</group>
+	<group name="Zeile">
+		<groupExpression><![CDATA[$F{Zeile}]]></groupExpression>
+	</group>
+	<group name="von_bis">
+		<groupExpression><![CDATA[$F{von_bis}]]></groupExpression>
+	</group>
+	<group name="Unterrichtsthema">
+		<groupExpression><![CDATA[$F{Unterrichtsthema}]]></groupExpression>
+	</group>
+	<group name="Ausbilder">
+		<groupExpression><![CDATA[$F{Ausbilder}]]></groupExpression>
+	</group>
+	<group name="Platz_Raum">
+		<groupExpression><![CDATA[$F{Platz_Raum}]]></groupExpression>
+	</group>
+	<group name="Klassen">
+		<groupExpression><![CDATA[$F{Klassen}]]></groupExpression>
+	</group>
+	<group name="Lehrlinge">
+		<groupExpression><![CDATA[$F{Lehrlinge}]]></groupExpression>
+	</group>
+	<group name="Informationen">
+		<groupExpression><![CDATA[$F{Informationen}]]></groupExpression>
+	</group>
+	<group name="Ausbildungsthema_1">
+		<groupExpression><![CDATA[$F{Ausbildungsthema_1}]]></groupExpression>
+	</group>
+	<group name="Ausbildungsthema_2">
+		<groupExpression><![CDATA[$F{Ausbildungsthema_2}]]></groupExpression>
+	</group>
+	<group name="Ausbildungsthema_3">
+		<groupExpression><![CDATA[$F{Ausbildungsthema_3}]]></groupExpression>
+	</group>
+	<group name="Benutzer">
+		<groupExpression><![CDATA[$F{Benutzer}]]></groupExpression>
+	</group>
+	<group name="Aenderung">
+		<groupExpression><![CDATA[$F{Aenderung}]]></groupExpression>
+	</group>
+	<group name="Datum">
+		<groupExpression><![CDATA[$F{Datum}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Transparent" x="221" y="-7" width="410" height="56" backcolor="rgba(204, 204, 204, 0.73333335)" uuid="39258eae-03d7-487f-bbeb-934f3ec58e7c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="25" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Auswertung Wochen Unterricht]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="0" width="143" height="50" uuid="50dae9e8-e063-42a0-a2d0-8ece12508ca0"/>
+				<imageExpression><![CDATA["../Knapp_Apprentice_Training/_Symbole/UsedSymbols/Knapp_Logo.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="7" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="47" splitType="Stretch">
+			<rectangle radius="0">
+				<reportElement mode="Opaque" x="-20" y="-5" width="842" height="28" backcolor="#C7C7C7" uuid="33960d5a-08b3-4a19-81be-545720cfe56f"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="58" y="0" width="110" height="30" uuid="73d2ae10-c0ff-4178-9c10-347a12defb37">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5dcee864-2efb-4f88-a703-5700b503bf5f"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Unterrichtsthema]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-3" y="0" width="54" height="30" uuid="1fadc2f4-b767-48bd-8dec-adf5d8f653ee">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3e8eeac4-364a-482d-a705-b4fa271477ce"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[von_bis]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="488" y="0" width="120" height="30" uuid="869954b6-e2c2-4589-b978-2ee1214746e1">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c8d79974-7dfb-43ee-8d89-fcb321605de7"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ausbildungsthema_2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="0" width="61" height="30" uuid="a6a4f645-28be-4208-8dee-75be6cc6429b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="676dc82f-80f0-434c-9b3b-c948197df315"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lehrlinge]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="352" y="0" width="126" height="30" uuid="579f54e3-4d70-406b-800c-53947a0b5b09">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="235425cb-4fc9-4033-88bb-b6114e4219a9"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ausbildungsthema_1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="621" y="0" width="123" height="30" uuid="1f39d28c-2318-45ef-9167-4d6265a99fc3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1eb76c76-e856-4c75-b4a5-2ff84d531c68"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ausbildungsthema_3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="177" y="0" width="90" height="30" uuid="6bde29a2-080b-446b-8824-3c7e1a07dff9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a564edd9-c72c-49be-a351-26a9c1a7f491"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ausbilder]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="750" y="0" width="53" height="30" uuid="00580fa8-958e-422d-a48d-267002a014e0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="601bb2bd-9a29-41f8-8f44-19a7657865c8"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Datum]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="51" splitType="Stretch">
+			<textField>
+				<reportElement x="-4" y="0" width="61" height="30" uuid="06ef0bd2-7923-4ed8-9f96-c30fb29ca4d5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3e8eeac4-364a-482d-a705-b4fa271477ce"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{von_bis}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="63" y="0" width="104" height="30" uuid="7c80ae57-dcbb-4de6-a0fc-4441ade7e039">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5dcee864-2efb-4f88-a703-5700b503bf5f"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Unterrichtsthema}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="178" y="0" width="90" height="30" uuid="a65f43be-e5cf-4e2d-be63-fca6f7b81899">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a564edd9-c72c-49be-a351-26a9c1a7f491"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Ausbilder}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="282" y="0" width="61" height="30" uuid="3116c55b-448c-4bb8-8907-a656a41e44d6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="676dc82f-80f0-434c-9b3b-c948197df315"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Lehrlinge}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="355" y="0" width="123" height="30" uuid="3422a093-f97a-44f2-b10b-0b71728b2ae8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="235425cb-4fc9-4033-88bb-b6114e4219a9"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Ausbildungsthema_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="489" y="0" width="119" height="30" uuid="e0ae274c-16e9-47b2-8c9b-913e3414814d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c8d79974-7dfb-43ee-8d89-fcb321605de7"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Ausbildungsthema_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="624" y="0" width="120" height="30" uuid="1a9c2016-e6ca-49db-acf8-c7ceff775c4f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1eb76c76-e856-4c75-b4a5-2ff84d531c68"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Ausbildungsthema_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="753" y="-3" width="53" height="30" uuid="c9888429-c19a-4edd-a09a-983de3b703c6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="601bb2bd-9a29-41f8-8f44-19a7657865c8"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Datum}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="7" splitType="Stretch"/>
+	</summary>
+</jasperReport>

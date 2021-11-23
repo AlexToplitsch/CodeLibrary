@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project apprentice_management_system -->
+<!-- Saved: 2020-11-30, 08:50:36 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="2" uid="{52233a25-b258-4906-b65f-3bfaa1e255e6}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/apprentice/qt/Ui_apprentice_add.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{4a0a926b-eb78-4df1-b603-060c9117639b}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/apprentice/qt/Ui_apprentice_edit.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{a43f9491-7f42-4f35-8d56-8baf37994d95}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/apprentice/qt/Ui_apprentice_list.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{a2e52625-bb33-4667-981b-257a0b588713}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/apprentice/qt/Ui_apprentice_manager.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{afe956c9-f2d3-41bd-aaff-1fd1f8dcecbc}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/field/qt/Ui_Fachrichtungen.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{ddaaa48e-d0fe-4506-b9f3-7f3db07ca2fc}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/lapcontent/qt/Ui_LAP_Themenkatalog.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{60669d0e-e2a9-4d93-b441-8b3a48a95038}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/learningcontent/qt/Ui_Lehrstoff.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{c5792a16-a828-4081-b764-0c8d386ccfb6}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/login/qt/Ui_login.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{e54743bb-8b04-4799-9413-03c13f378b47}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/login/qt/Ui_login_settings.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{fe8fa5df-21a2-408e-9875-dafd7d43d8b2}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/mainwindow/qt/Ui_mainwindow.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{a24c9475-f262-4d3b-98c3-e598185faf3d}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/rooms/qt/Ui_Raeume.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{97704ee8-b87b-4f50-85ef-53dc82c837da}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/specialmodules/qt/Ui_Spezialmodule.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{e022d878-f9bb-4fbe-85f8-0ba547d3cbb3}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2020-11-30, 08:47:42</Created>
+    <Resource>
+      <Filename>sub/trainer/qt/Ui_Ausbilder.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

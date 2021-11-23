@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\bin\Debug\netcoreapp3.1\MatrixMalVector.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\bin\Debug\netcoreapp3.1\MatrixMalVector.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\bin\Debug\netcoreapp3.1\MatrixMalVector.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\bin\Debug\netcoreapp3.1\MatrixMalVector.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\bin\Debug\netcoreapp3.1\MatrixMalVector.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\bin\Debug\netcoreapp3.1\MatrixMalVector.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\obj\Debug\netcoreapp3.1\MatrixMalVector.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\obj\Debug\netcoreapp3.1\MatrixMalVector.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\obj\Debug\netcoreapp3.1\MatrixMalVector.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\obj\Debug\netcoreapp3.1\MatrixMalVector.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\obj\Debug\netcoreapp3.1\MatrixMalVector.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\obj\Debug\netcoreapp3.1\MatrixMalVector.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\MatrixMalVector\MatrixMalVector\obj\Debug\netcoreapp3.1\MatrixMalVector.genruntimeconfig.cache

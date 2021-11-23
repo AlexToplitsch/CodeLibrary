@@ -1,0 +1,5 @@
+﻿  Galgenmännchen.cpp
+D:\Programme\C++\Uebungen\Galgenmännchen\Galgenmännchen.cpp(73,23): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Programme\C++\Uebungen\Galgenmännchen\Galgenmännchen.cpp(76,23): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Programme\C++\Uebungen\Galgenmännchen\Galgenmännchen.cpp(96,31): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Galgenmännchen.vcxproj -> D:\Programme\C++\Uebungen\Galgenmännchen\Debug\Galgenmännchen.exe

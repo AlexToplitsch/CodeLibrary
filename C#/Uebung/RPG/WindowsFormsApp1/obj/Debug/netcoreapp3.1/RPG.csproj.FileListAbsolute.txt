@@ -1,0 +1,14 @@
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\bin\Debug\netcoreapp3.1\RPG.exe
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\bin\Debug\netcoreapp3.1\RPG.deps.json
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\bin\Debug\netcoreapp3.1\RPG.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\bin\Debug\netcoreapp3.1\RPG.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\bin\Debug\netcoreapp3.1\RPG.dll
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\bin\Debug\netcoreapp3.1\RPG.pdb
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.Form1.resources
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\obj\Debug\netcoreapp3.1\RPG.csproj.GenerateResource.cache
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\obj\Debug\netcoreapp3.1\RPG.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\obj\Debug\netcoreapp3.1\RPG.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\obj\Debug\netcoreapp3.1\RPG.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\obj\Debug\netcoreapp3.1\RPG.dll
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\obj\Debug\netcoreapp3.1\RPG.pdb
+D:\IT-Unterricht\Programme\C#\RPG\WindowsFormsApp1\obj\Debug\netcoreapp3.1\RPG.genruntimeconfig.cache

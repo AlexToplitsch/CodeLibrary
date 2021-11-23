@@ -1,0 +1,54 @@
+:root{
+    font-size: 20px;
+}
+
+html, body{
+    box-sizing: border-box;
+    margin: 0px;
+    height: 100%;
+    font-size: 1rem;
+}
+
+.container{
+    margin: 0 10px;
+    height: 100%;
+    display: grid;
+    grid-template: 50px auto 50px /repeat(12, 1fr);
+    grid-gap: 2px;
+}
+
+.header{
+    background: rgb(154, 167, 39);
+    grid-column: 1 / -2;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.menu{
+    background: rgb(95, 95, 95);
+    grid-row: 1 / -2;
+    grid-column: -1/-2;
+}
+
+.content{
+    font-size: 2em;
+    background: rgb(51, 136, 151);
+    grid-column: 1 / -2;
+    grid-row: 2 / -2;
+}
+
+.footer{
+    background: rgba(120, 52, 146, 0.664);
+    grid-column: 1 / -1;
+}
+
+.container > div{
+    display: flex;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}

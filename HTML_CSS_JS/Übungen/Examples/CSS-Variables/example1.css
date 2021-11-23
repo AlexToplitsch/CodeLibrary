@@ -1,0 +1,31 @@
+    html, body{
+        height: 100%;;
+        margin: 0;
+        padding: 0;
+        background: grey;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .navbar > ul{
+        display: flex;
+        list-style-type: none;
+        justify-items: space-evenly;
+        margin: 0 50px;
+    }
+
+    .grid{
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-auto-rows: 200px;
+        justify-content: center;
+    }
+
+    .project{
+        text-align: center;
+        grid-column: span 1;
+    }

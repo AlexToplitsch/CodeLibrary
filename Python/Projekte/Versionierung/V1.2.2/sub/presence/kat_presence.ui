@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>kat_presence</class>
+ <widget class="QDialog" name="kat_presence">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>864</width>
+    <height>734</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Abwesenheitsgründe</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Abwesenheitsgründe</string>
+     </property>
+     <widget class="QTableWidget" name="tw_anzeige">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>821</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>50</y>
+        <width>161</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Abwesenheitsgrund:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_abwesenheitsgrund">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>50</y>
+        <width>501</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_suchen">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Suchen</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/searchmagnifierinterfacesymbol1_79893.ico</normaloff>../../_Symbole/UsedSymbols/searchmagnifierinterfacesymbol1_79893.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_leeren">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>110</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>leeren</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/-clear_90704.ico</normaloff>../../_Symbole/UsedSymbols/-clear_90704.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_speichern">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>110</y>
+        <width>101</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Speichern</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/save_3621.ico</normaloff>../../_Symbole/UsedSymbols/save_3621.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_loeschen">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>110</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>löschen</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/seo-social-web-network-internet_262_icon-icons.com_61518.ico</normaloff>../../_Symbole/UsedSymbols/seo-social-web-network-internet_262_icon-icons.com_61518.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_hauptmenue">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>110</y>
+        <width>111</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hauptmenü</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/log-out_icon-icons.com_50106.ico</normaloff>../../_Symbole/UsedSymbols/log-out_icon-icons.com_50106.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_excel">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>110</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Excel</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/microsoft_excel_icon_132212.ico</normaloff>../../_Symbole/UsedSymbols/microsoft_excel_icon_132212.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_report">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>110</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Report</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/reporting_noun_report_document_file_icon_148360.ico</normaloff>../../_Symbole/UsedSymbols/reporting_noun_report_document_file_icon_148360.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_hilfe">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>110</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hilfe</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/info_13213.ico</normaloff>../../_Symbole/UsedSymbols/info_13213.ico</iconset>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>150</y>
+        <width>841</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lab_INFO">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>680</y>
+        <width>821</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Kürzel:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_kuerzel">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>50</y>
+        <width>81</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

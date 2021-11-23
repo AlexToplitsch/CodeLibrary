@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\bin\Debug\netcoreapp3.1\Fakrorielle.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\bin\Debug\netcoreapp3.1\Fakrorielle.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\bin\Debug\netcoreapp3.1\Fakrorielle.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\bin\Debug\netcoreapp3.1\Fakrorielle.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\bin\Debug\netcoreapp3.1\Fakrorielle.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\bin\Debug\netcoreapp3.1\Fakrorielle.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\obj\Debug\netcoreapp3.1\Fakrorielle.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\obj\Debug\netcoreapp3.1\Fakrorielle.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\obj\Debug\netcoreapp3.1\Fakrorielle.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\obj\Debug\netcoreapp3.1\Fakrorielle.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\obj\Debug\netcoreapp3.1\Fakrorielle.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\obj\Debug\netcoreapp3.1\Fakrorielle.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Fakrorielle\Fakrorielle\obj\Debug\netcoreapp3.1\Fakrorielle.genruntimeconfig.cache

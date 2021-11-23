@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="kat_lap_themenkatalog" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5dadab58-149e-4e1c-9c8c-ab59852585c8">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SQListe-KAT.db"/>
+	<queryString language="SQL">
+		<![CDATA[select * from kat_lap_themenkatalog]]>
+	</queryString>
+	<field name="id" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Fachrichtung" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Fachrichtung"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Themen_ID" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Themen_ID"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Thema" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Thema"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Ausbilder" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Ausbilder"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Lehrjahr" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Lehrjahr"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="BS_Lehrjahr" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="BS_Lehrjahr"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Benutzer" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Benutzer"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Änderung" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Änderung"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Hauptthema" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Hauptthema"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<group name="id">
+		<groupExpression><![CDATA[$F{id}]]></groupExpression>
+	</group>
+	<group name="Fachrichtung">
+		<groupExpression><![CDATA[$F{Fachrichtung}]]></groupExpression>
+	</group>
+	<group name="Themen_ID">
+		<groupExpression><![CDATA[$F{Themen_ID}]]></groupExpression>
+	</group>
+	<group name="Thema">
+		<groupExpression><![CDATA[$F{Thema}]]></groupExpression>
+	</group>
+	<group name="Ausbilder">
+		<groupExpression><![CDATA[$F{Ausbilder}]]></groupExpression>
+	</group>
+	<group name="Lehrjahr">
+		<groupExpression><![CDATA[$F{Lehrjahr}]]></groupExpression>
+	</group>
+	<group name="BS_Lehrjahr">
+		<groupExpression><![CDATA[$F{BS_Lehrjahr}]]></groupExpression>
+	</group>
+	<group name="Benutzer">
+		<groupExpression><![CDATA[$F{Benutzer}]]></groupExpression>
+	</group>
+	<group name="Änderung">
+		<groupExpression><![CDATA[$F{Änderung}]]></groupExpression>
+	</group>
+	<group name="Hauptthema">
+		<groupExpression><![CDATA[$F{Hauptthema}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="102" splitType="Stretch">
+			<image>
+				<reportElement x="433" y="32" width="50" height="50" uuid="5cb63dd7-0b78-4d49-99dc-5abe0a705b8e"/>
+				<imageExpression><![CDATA["../Knapp_Apprentice_Training/_Symbole/UsedSymbols/Knapp_Logo.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="32" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="0" width="80" height="30" uuid="6d7565f0-ccf0-49db-b26a-53ed92d4fabd">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="147e011e-c374-4921-ac19-4ddfe11e68ee"/>
+				</reportElement>
+				<text><![CDATA[Fachrichtung]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="114" y="0" width="58" height="30" uuid="2ccba0f0-4248-411b-b993-c6b979a3e5ec">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b615cf4a-e59e-4650-ac91-ab16365e17a1"/>
+				</reportElement>
+				<text><![CDATA[Themen_ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="304" y="0" width="58" height="30" uuid="341fad74-bc1c-48cf-99ed-b309f261b67a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="37ef06aa-e8dd-4005-96b4-1f8c851d22cf"/>
+				</reportElement>
+				<text><![CDATA[Thema]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="383" y="0" width="80" height="30" uuid="fccd376b-cc5d-49ed-a4cb-e630afe78568">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b9579fbc-6d0a-49cb-a4f4-e8f7607040ab"/>
+				</reportElement>
+				<text><![CDATA[Ausbilder]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="474" y="0" width="80" height="30" uuid="fb510b95-0ad8-450d-9ba2-435311835554">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a27cd1a2-0be0-46a7-ab1e-45047b65c819"/>
+				</reportElement>
+				<text><![CDATA[Lehrjahr]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="558" y="0" width="72" height="30" uuid="991b38a1-2edb-406d-b4ba-bdc888480d94">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f661572a-4c6d-4da2-b14f-ec27d7de27c3"/>
+				</reportElement>
+				<text><![CDATA[BS_Lehrjahr]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="646" y="0" width="62" height="30" uuid="f84115f3-fc7f-4864-9827-a5738f5f2d18">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="58a21907-18d9-4a6f-b92a-cfcb0c5861fb"/>
+				</reportElement>
+				<text><![CDATA[Benutzer]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="719" y="0" width="80" height="30" uuid="6459b158-60b2-41f1-b6ce-709d3c6bb1f8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="80f7b97f-7ab4-42bf-ba16-23311dce52c6"/>
+				</reportElement>
+				<text><![CDATA[Änderung]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="202" y="1" width="60" height="30" uuid="bfb36e25-0b6e-4228-9a20-54bd31a66578">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="536810bc-9c4b-4ddf-8fd5-95c788538c5c"/>
+				</reportElement>
+				<text><![CDATA[Hauptthema]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="44" splitType="Stretch">
+			<textField>
+				<reportElement x="13" y="0" width="97" height="30" uuid="d4e8a6b6-8dc0-4078-8db7-406e1298d884">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="147e011e-c374-4921-ac19-4ddfe11e68ee"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Fachrichtung}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="124" y="0" width="51" height="30" uuid="122a5bf3-3f4c-4110-a7f7-08a53229bb97">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b615cf4a-e59e-4650-ac91-ab16365e17a1"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Themen_ID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="0" width="80" height="30" uuid="32e768be-b35e-4286-b97d-e1f3a8f5edc9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="37ef06aa-e8dd-4005-96b4-1f8c851d22cf"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Thema}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="388" y="0" width="80" height="30" uuid="d09dbaf8-cfb2-498b-8b1a-cbd51253ac79">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b9579fbc-6d0a-49cb-a4f4-e8f7607040ab"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Ausbilder}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="478" y="0" width="80" height="30" uuid="266e05da-411e-4b48-bca2-61ab76c84e17">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a27cd1a2-0be0-46a7-ab1e-45047b65c819"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Lehrjahr}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="563" y="0" width="80" height="30" uuid="b6bd4426-bdd0-454c-9c9a-79df64ba9d2d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f661572a-4c6d-4da2-b14f-ec27d7de27c3"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{BS_Lehrjahr}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="647" y="0" width="69" height="30" uuid="409d21f2-c63b-40bc-ae99-563a4163815c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="58a21907-18d9-4a6f-b92a-cfcb0c5861fb"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Benutzer}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="720" y="0" width="60" height="30" uuid="32d76664-8aad-40d6-80da-92dbd7c41eba">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="80f7b97f-7ab4-42bf-ba16-23311dce52c6"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Änderung}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="296" y="0" width="80" height="30" uuid="133e3c67-d5ce-453d-a77f-fadda82717ca">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="536810bc-9c4b-4ddf-8fd5-95c788538c5c"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Hauptthema}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="kat_lap_themenkatalog" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5dadab58-149e-4e1c-9c8c-ab59852585c8">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SQLite KAT.db"/>
+	<queryString language="SQL">
+		<![CDATA[select * from kat_lap_themenkatalog]]>
+	</queryString>
+	<field name="id" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Fachrichtung" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Fachrichtung"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Themen_ID" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Themen_ID"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Hauptthema" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Hauptthema"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Thema" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Thema"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Ausbilder" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Ausbilder"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Lehrjahr" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Lehrjahr"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="BS_Lehrjahr" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="BS_Lehrjahr"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Benutzer" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Benutzer"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<field name="Änderung" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Änderung"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_lap_themenkatalog"/>
+	</field>
+	<group name="id">
+		<groupExpression><![CDATA[$F{id}]]></groupExpression>
+	</group>
+	<group name="Fachrichtung">
+		<groupExpression><![CDATA[$F{Fachrichtung}]]></groupExpression>
+	</group>
+	<group name="Themen_ID">
+		<groupExpression><![CDATA[$F{Themen_ID}]]></groupExpression>
+	</group>
+	<group name="Thema">
+		<groupExpression><![CDATA[$F{Thema}]]></groupExpression>
+	</group>
+	<group name="Ausbilder">
+		<groupExpression><![CDATA[$F{Ausbilder}]]></groupExpression>
+	</group>
+	<group name="Lehrjahr">
+		<groupExpression><![CDATA[$F{Lehrjahr}]]></groupExpression>
+	</group>
+	<group name="BS_Lehrjahr">
+		<groupExpression><![CDATA[$F{BS_Lehrjahr}]]></groupExpression>
+	</group>
+	<group name="Benutzer">
+		<groupExpression><![CDATA[$F{Benutzer}]]></groupExpression>
+	</group>
+	<group name="Änderung">
+		<groupExpression><![CDATA[$F{Änderung}]]></groupExpression>
+	</group>
+	<group name="Hauptthema">
+		<groupExpression><![CDATA[$F{Hauptthema}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="75" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="143" height="50" uuid="5cb63dd7-0b78-4d49-99dc-5abe0a705b8e"/>
+				<imageExpression><![CDATA["../Knapp_Apprentice_Training/_Symbole/UsedSymbols/Knapp_Logo.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement mode="Transparent" x="270" y="-7" width="263" height="56" backcolor="rgba(204, 204, 204, 0.73333335)" uuid="65581d6d-3c9d-4e09-ae17-381488db5b94"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="25" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAP_Themenkatalog]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="39" splitType="Stretch">
+			<frame>
+				<reportElement x="-20" y="-6" width="842" height="28" uuid="f600e335-8eb8-436e-970b-5b176f79242c"/>
+				<frame>
+					<reportElement x="0" y="0" width="842" height="28" uuid="95de1636-d334-4733-a7ea-06cc8a11853d">
+						<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+					</reportElement>
+					<rectangle radius="0">
+						<reportElement mode="Opaque" x="0" y="0" width="842" height="28" backcolor="#C7C7C7" uuid="20bd0681-cd8f-465d-bca1-0091e9ee2c04"/>
+						<graphicElement>
+							<pen lineWidth="0.0"/>
+						</graphicElement>
+					</rectangle>
+				</frame>
+			</frame>
+			<staticText>
+				<reportElement x="120" y="0" width="30" height="30" uuid="2ccba0f0-4248-411b-b993-c6b979a3e5ec">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b615cf4a-e59e-4650-ac91-ab16365e17a1"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="0" width="100" height="30" uuid="341fad74-bc1c-48cf-99ed-b309f261b67a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="37ef06aa-e8dd-4005-96b4-1f8c851d22cf"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Thema]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="0" width="70" height="30" uuid="fccd376b-cc5d-49ed-a4cb-e630afe78568">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b9579fbc-6d0a-49cb-a4f4-e8f7607040ab"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ausbilder]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="480" y="0" width="50" height="30" uuid="fb510b95-0ad8-450d-9ba2-435311835554">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a27cd1a2-0be0-46a7-ab1e-45047b65c819"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lehrjahr]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="550" y="0" width="50" height="30" uuid="991b38a1-2edb-406d-b4ba-bdc888480d94">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f661572a-4c6d-4da2-b14f-ec27d7de27c3"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BS_Jahr]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="620" y="1" width="60" height="30" uuid="f84115f3-fc7f-4864-9827-a5738f5f2d18">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="58a21907-18d9-4a6f-b92a-cfcb0c5861fb"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Benutzer]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="700" y="0" width="99" height="30" uuid="6459b158-60b2-41f1-b6ce-709d3c6bb1f8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="80f7b97f-7ab4-42bf-ba16-23311dce52c6"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Änderung]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="170" y="0" width="80" height="30" uuid="bfb36e25-0b6e-4228-9a20-54bd31a66578">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="536810bc-9c4b-4ddf-8fd5-95c788538c5c"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Hauptthema]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="111" height="30" uuid="0467ef98-7038-415c-99d3-a4321c9342ea">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="afd687f0-a8ff-4b15-a1eb-d1258233fc87"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fachrichtung]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="46" splitType="Stretch">
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToTallestObject" x="120" y="0" width="30" height="30" isPrintWhenDetailOverflows="true" uuid="122a5bf3-3f4c-4110-a7f7-08a53229bb97">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b615cf4a-e59e-4650-ac91-ab16365e17a1"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<paragraph lineSpacingSize="1.0" spacingAfter="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Themen_ID}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToTallestObject" x="270" y="0" width="100" height="30" isPrintWhenDetailOverflows="true" uuid="32e768be-b35e-4286-b97d-e1f3a8f5edc9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="37ef06aa-e8dd-4005-96b4-1f8c851d22cf"/>
+				</reportElement>
+				<textElement markup="">
+					<paragraph lineSpacingSize="1.0" spacingAfter="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Thema}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToTallestObject" x="390" y="0" width="70" height="30" isPrintWhenDetailOverflows="true" uuid="d09dbaf8-cfb2-498b-8b1a-cbd51253ac79">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b9579fbc-6d0a-49cb-a4f4-e8f7607040ab"/>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="Single" lineSpacingSize="1.0" spacingAfter="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Ausbilder}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToTallestObject" x="480" y="0" width="50" height="30" isPrintWhenDetailOverflows="true" uuid="266e05da-411e-4b48-bca2-61ab76c84e17">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a27cd1a2-0be0-46a7-ab1e-45047b65c819"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<paragraph lineSpacingSize="1.0" spacingAfter="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Lehrjahr}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToTallestObject" x="550" y="2" width="50" height="30" isPrintWhenDetailOverflows="true" uuid="b6bd4426-bdd0-454c-9c9a-79df64ba9d2d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f661572a-4c6d-4da2-b14f-ec27d7de27c3"/>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacingSize="1.0" spacingAfter="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{BS_Lehrjahr}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToTallestObject" x="620" y="2" width="60" height="30" isPrintWhenDetailOverflows="true" uuid="409d21f2-c63b-40bc-ae99-563a4163815c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="58a21907-18d9-4a6f-b92a-cfcb0c5861fb"/>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacingSize="1.0" spacingAfter="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Benutzer}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToTallestObject" x="700" y="0" width="99" height="30" isPrintWhenDetailOverflows="true" uuid="32d76664-8aad-40d6-80da-92dbd7c41eba">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="80f7b97f-7ab4-42bf-ba16-23311dce52c6"/>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacingSize="1.0" spacingAfter="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Änderung}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToTallestObject" x="170" y="0" width="80" height="30" isPrintWhenDetailOverflows="true" uuid="133e3c67-d5ce-453d-a77f-fadda82717ca">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="536810bc-9c4b-4ddf-8fd5-95c788538c5c"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<paragraph lineSpacingSize="1.0" spacingAfter="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Hauptthema}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement stretchType="RelativeToTallestObject" x="1" y="2" width="110" height="30" isPrintWhenDetailOverflows="true" uuid="80488b59-c4ec-4bed-9a08-f21bf774105f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="afd687f0-a8ff-4b15-a1eb-d1258233fc87"/>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacingSize="1.0" spacingAfter="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Fachrichtung}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

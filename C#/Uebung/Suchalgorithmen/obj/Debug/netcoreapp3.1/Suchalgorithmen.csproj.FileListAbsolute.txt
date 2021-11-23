@@ -1,0 +1,16 @@
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\bin\Debug\netcoreapp3.1\Suchalgorithmen.exe
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\bin\Debug\netcoreapp3.1\Suchalgorithmen.deps.json
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\bin\Debug\netcoreapp3.1\Suchalgorithmen.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\bin\Debug\netcoreapp3.1\Suchalgorithmen.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\bin\Debug\netcoreapp3.1\Suchalgorithmen.dll
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\bin\Debug\netcoreapp3.1\Suchalgorithmen.pdb
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\obj\Debug\netcoreapp3.1\Suchalgorithmen.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\obj\Debug\netcoreapp3.1\Suchalgorithmen.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\obj\Debug\netcoreapp3.1\Suchalgorithmen.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\obj\Debug\netcoreapp3.1\Suchalgorithmen.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\obj\Debug\netcoreapp3.1\Suchalgorithmen.dll
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\obj\Debug\netcoreapp3.1\Suchalgorithmen.pdb
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\obj\Debug\netcoreapp3.1\Suchalgorithmen.genruntimeconfig.cache
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\obj\Debug\netcoreapp3.1\Suchalgorithmen.csproj.CopyComplete
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\bin\Debug\netcoreapp3.1\Algorithmen.dll
+D:\IT-Unterricht\Programme\C#\Suchalgorithmen\bin\Debug\netcoreapp3.1\Algorithmen.pdb

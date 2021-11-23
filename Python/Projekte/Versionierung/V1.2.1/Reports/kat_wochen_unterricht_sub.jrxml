@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="kat_wochen_unterricht_sub" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="941ddae8-ff9d-419d-8200-fc28b61b1208">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter">
+		<![CDATA[SQListe-KAT.db
+]]>
+	</property>
+	<queryString>
+		<![CDATA[select * from kat_wochen_unterricht_fussbemerkungen]]>
+	</queryString>
+	<field name="Woche" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Woche"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="1A" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="1A"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="1B" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="1B"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="2A" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="2A"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="2B" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="2B"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="3A" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="3A"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="3B" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="3B"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="4A" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="4A"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="4B" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="4B"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="Homeoffice" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Homeoffice"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="BS" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="BS"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="Englischunterricht" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Englischunterricht"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="Benutzer" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Benutzer"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<field name="Aenderung" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Aenderung"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_wochen_unterricht_fussbemerkungen"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="160" splitType="Stretch">
+			<textField>
+				<reportElement x="40" y="68" width="190" height="18" uuid="d6a341ce-e93c-46aa-b911-9dbc0b903b05"/>
+				<textFieldExpression><![CDATA[$F{1A}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="21" y="68" width="19" height="18" uuid="ec595178-f5f4-43aa-8703-d9fb48984ad5"/>
+				<text><![CDATA[1A:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="40" y="88" width="190" height="18" forecolor="#002FFF" backcolor="#FFFFFF" uuid="96111ecf-24b9-4fe7-a5de-e9ef84095a4a"/>
+				<textFieldExpression><![CDATA[$F{1B}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="21" y="88" width="19" height="18" forecolor="#000000" uuid="c916887c-42ad-4a12-87b3-c041a6c9bbdd"/>
+				<text><![CDATA[1B:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="40" y="109" width="190" height="17" uuid="1f2ecd5d-73ab-480b-9408-a0c10e4b758c"/>
+				<textFieldExpression><![CDATA[$F{2A}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="22" y="109" width="18" height="17" uuid="931da8a4-1e5a-4b77-b935-b5745eebe41d"/>
+				<text><![CDATA[2A:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="40" y="131" width="190" height="19" uuid="e476d5bf-5fe8-4b2c-aaff-58ff02fb0660"/>
+				<textFieldExpression><![CDATA[$F{2B}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="21" y="131" width="19" height="19" uuid="abee67a1-050d-4e71-9f72-b4f81d376ed3"/>
+				<text><![CDATA[2B:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="301" y="69" width="179" height="15" uuid="fd8e6f93-3dcb-42bb-8f4f-c9d126dc77e9"/>
+				<textFieldExpression><![CDATA[$F{3A}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="281" y="69" width="19" height="16" uuid="4e85bb19-908b-44a6-aedd-3f4f83e3a982"/>
+				<text><![CDATA[3A:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="301" y="88" width="179" height="15" uuid="90ba4028-a5bb-4703-96b8-24ad848024dd"/>
+				<textFieldExpression><![CDATA[$F{3B}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="281" y="88" width="19" height="15" uuid="97ad1dbf-f781-4ff5-8ad9-f3ad382b284a"/>
+				<text><![CDATA[3B:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="338" y="136" width="140" height="15" uuid="4f328f86-64dc-4a07-af1b-98253be7f268"/>
+				<textFieldExpression><![CDATA[$F{Homeoffice}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="279" y="136" width="59" height="15" uuid="b9afb06f-5519-452b-ab41-b239aed15932"/>
+				<text><![CDATA[Homeoffice:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="121" y="5" width="139" height="49" uuid="bad9fbf4-db91-411d-991e-6dc8e13681b5"/>
+				<textFieldExpression><![CDATA[$F{Englischunterricht}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="21" y="5" width="100" height="19" uuid="9dd591ed-6cc8-48bc-8c5a-7abd04b1400e"/>
+				<text><![CDATA[Englischunterricht]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="301" y="108" width="179" height="15" uuid="e2639116-702c-4abb-975c-12dd8f81a5fc"/>
+				<textFieldExpression><![CDATA[$F{BS}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="281" y="108" width="19" height="15" uuid="d90c2bfd-c335-4385-a908-500717c83963"/>
+				<text><![CDATA[BS:]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

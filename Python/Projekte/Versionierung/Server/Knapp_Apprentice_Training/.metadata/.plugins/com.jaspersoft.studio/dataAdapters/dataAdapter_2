@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl"><name>kat.db</name><driver>org.sqlite.JDBC</driver><username/><password/><savePassword>true</savePassword><url>jdbc: D:\python\Projekte\Lehrlingsdatenbank\V1.1.5\Knapp_Apprentice_Training\kat.db</url><database/><serverAddress/></jdbcDataAdapter>

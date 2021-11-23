@@ -1,0 +1,94 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'D:\Python\Projekte\Knapp_Apprentice_Training\sub\login\login_settings.ui'
+#
+# Created by: PyQt5 UI code generator 5.12.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_LoginSettings(object):
+    def setupUi(self, LoginSettings):
+        LoginSettings.setObjectName("LoginSettings")
+        LoginSettings.resize(284, 119)
+        LoginSettings.setSizeGripEnabled(True)
+        self.gridLayout = QtWidgets.QGridLayout(LoginSettings)
+        self.gridLayout.setObjectName("gridLayout")
+        self.verticalLayout = QtWidgets.QVBoxLayout()
+        self.verticalLayout.setObjectName("verticalLayout")
+        spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem)
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.label = QtWidgets.QLabel(LoginSettings)
+        self.label.setObjectName("label")
+        self.horizontalLayout.addWidget(self.label)
+        self.lineEdit_host = QtWidgets.QLineEdit(LoginSettings)
+        self.lineEdit_host.setEnabled(False)
+        self.lineEdit_host.setMinimumSize(QtCore.QSize(200, 0))
+        self.lineEdit_host.setMaximumSize(QtCore.QSize(150, 16777215))
+        self.lineEdit_host.setObjectName("lineEdit_host")
+        self.horizontalLayout.addWidget(self.lineEdit_host)
+        spacerItem1 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem1)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+        spacerItem2 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem2)
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        self.label_2 = QtWidgets.QLabel(LoginSettings)
+        self.label_2.setObjectName("label_2")
+        self.horizontalLayout_2.addWidget(self.label_2)
+        self.lineEdit_database = QtWidgets.QLineEdit(LoginSettings)
+        self.lineEdit_database.setEnabled(False)
+        self.lineEdit_database.setMinimumSize(QtCore.QSize(200, 0))
+        self.lineEdit_database.setMaximumSize(QtCore.QSize(150, 16777215))
+        self.lineEdit_database.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.lineEdit_database.setObjectName("lineEdit_database")
+        self.horizontalLayout_2.addWidget(self.lineEdit_database)
+        spacerItem3 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_2.addItem(spacerItem3)
+        self.verticalLayout.addLayout(self.horizontalLayout_2)
+        spacerItem4 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem4)
+        self.horizontalLayout_4 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_4.setObjectName("horizontalLayout_4")
+        self.pushButton_abbrechen = QtWidgets.QPushButton(LoginSettings)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("_Symbole/Icons/computer/W95MBX01.ICO"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_abbrechen.setIcon(icon)
+        self.pushButton_abbrechen.setObjectName("pushButton_abbrechen")
+        self.horizontalLayout_4.addWidget(self.pushButton_abbrechen)
+        self.pushButton_speichern = QtWidgets.QPushButton(LoginSettings)
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap("_Symbole/Icons/computer/DISK04.ICO"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_speichern.setIcon(icon1)
+        self.pushButton_speichern.setObjectName("pushButton_speichern")
+        self.horizontalLayout_4.addWidget(self.pushButton_speichern)
+        self.verticalLayout.addLayout(self.horizontalLayout_4)
+        self.gridLayout.addLayout(self.verticalLayout, 0, 0, 1, 1)
+
+        self.retranslateUi(LoginSettings)
+        QtCore.QMetaObject.connectSlotsByName(LoginSettings)
+
+    def retranslateUi(self, LoginSettings):
+        _translate = QtCore.QCoreApplication.translate
+        LoginSettings.setWindowTitle(_translate("LoginSettings", "Datenbank"))
+        self.label.setText(_translate("LoginSettings", "Host:"))
+        self.label_2.setText(_translate("LoginSettings", "Database:"))
+        self.pushButton_abbrechen.setText(_translate("LoginSettings", "Abbrechen"))
+        self.pushButton_speichern.setText(_translate("LoginSettings", "Speichern"))
+
+
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    LoginSettings = QtWidgets.QDialog()
+    ui = Ui_LoginSettings()
+    ui.setupUi(LoginSettings)
+    LoginSettings.show()
+    sys.exit(app.exec_())

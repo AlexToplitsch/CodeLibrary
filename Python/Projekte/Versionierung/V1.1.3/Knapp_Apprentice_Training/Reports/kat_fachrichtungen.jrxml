@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="kat_fachrichtungen" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="92c92caa-b4e4-4e12-9dc5-b3a51c4ea3f1">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SQListe-KAT.db"/>
+	<queryString language="SQL">
+		<![CDATA[select * from kat_fachrichtungen]]>
+	</queryString>
+	<field name="Fachrichtung" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Fachrichtung"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_fachrichtungen"/>
+	</field>
+	<field name="Bezeichnung" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Bezeichnung"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_fachrichtungen"/>
+	</field>
+	<field name="Lehrjahre" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Lehrjahre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_fachrichtungen"/>
+	</field>
+	<field name="Benutzername" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Benutzername"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_fachrichtungen"/>
+	</field>
+	<field name="Aenderungsdatum" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Aenderungsdatum"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_fachrichtungen"/>
+	</field>
+	<group name="Fachrichtung">
+		<groupExpression><![CDATA[$F{Fachrichtung}]]></groupExpression>
+	</group>
+	<group name="Bezeichnung">
+		<groupExpression><![CDATA[$F{Bezeichnung}]]></groupExpression>
+	</group>
+	<group name="Lehrjahre">
+		<groupExpression><![CDATA[$F{Lehrjahre}]]></groupExpression>
+	</group>
+	<group name="Benutzername">
+		<groupExpression><![CDATA[$F{Benutzername}]]></groupExpression>
+	</group>
+	<group name="Aenderungsdatum">
+		<groupExpression><![CDATA[$F{Aenderungsdatum}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="90" splitType="Stretch">
+			<image>
+				<reportElement x="188" y="15" width="170" height="50" uuid="abb9fa37-8627-40ef-809c-d32254dd5bc1"/>
+				<imageExpression><![CDATA["../_Symbole/UsedSymbols/Knapp_Logo.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="32" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="111" height="30" uuid="e7922914-dd4e-4c5f-9f97-e031bb38d323">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9e5f3900-4b77-4d2b-a774-c3871703a227"/>
+				</reportElement>
+				<text><![CDATA[Fachrichtung]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="0" width="111" height="30" uuid="b1e3b3c2-f5ea-47e4-a1fd-f7ba8bbbb2d9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="703b4631-baba-4168-9a32-4cebfbed3a4e"/>
+				</reportElement>
+				<text><![CDATA[Bezeichnung]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="222" y="0" width="111" height="30" uuid="3dc5bbae-44d1-4a32-ad2f-a8d6489ebbce">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="cb05f580-ac42-4aa0-adb0-9afdf27e5ad0"/>
+				</reportElement>
+				<text><![CDATA[Lehrjahre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="333" y="0" width="111" height="30" uuid="7150c08f-4024-4998-a8c2-3e0e82f09949">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="98a189ab-ff82-4dd4-b07b-645f48aed9cb"/>
+				</reportElement>
+				<text><![CDATA[Benutzername]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="444" y="0" width="111" height="30" uuid="1c45aa47-cbcb-48f3-84ff-fd46fa378ae4">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0c6219f8-4e02-49b3-9f33-c3ab96183bf5"/>
+				</reportElement>
+				<text><![CDATA[Aenderungsdatum]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="42" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="111" height="30" uuid="53f0ea0a-3a69-4687-8d8d-81a12e222f05">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9e5f3900-4b77-4d2b-a774-c3871703a227"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Fachrichtung}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="98" y="0" width="111" height="30" uuid="511e9c80-762f-4b29-8c7c-37d7b5364408">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="703b4631-baba-4168-9a32-4cebfbed3a4e"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Bezeichnung}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="222" y="0" width="111" height="30" uuid="c0c5b467-c518-4b43-af56-b4cadc6ff69d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="cb05f580-ac42-4aa0-adb0-9afdf27e5ad0"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Lehrjahre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="0" width="111" height="30" uuid="86d9b13d-92dd-444f-b4de-d0087b948e63">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="98a189ab-ff82-4dd4-b07b-645f48aed9cb"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Benutzername}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="0" width="111" height="30" uuid="e88909b4-4c0c-4a4f-a34f-e62647f16396">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0c6219f8-4e02-49b3-9f33-c3ab96183bf5"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Aenderungsdatum}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

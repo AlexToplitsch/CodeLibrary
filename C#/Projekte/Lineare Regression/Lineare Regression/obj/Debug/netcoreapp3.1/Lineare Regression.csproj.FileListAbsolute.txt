@@ -1,0 +1,30 @@
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\Lineare Regression.exe
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\Lineare Regression.deps.json
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\Lineare Regression.runtimeconfig.json
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\Lineare Regression.runtimeconfig.dev.json
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\Lineare Regression.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\Lineare Regression.pdb
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\OpenCvSharp.Extensions.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\OpenCvSharp.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\ScottPlot.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\Algorithmen.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\Algorithmen.pdb
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\obj\Debug\netcoreapp3.1\Lineare Regression.csprojAssemblyReference.cache
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\obj\Debug\netcoreapp3.1\Lineare Regression.AssemblyInfoInputs.cache
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\obj\Debug\netcoreapp3.1\Lineare Regression.AssemblyInfo.cs
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\obj\Debug\netcoreapp3.1\Lineare Regression.csproj.CoreCompileInputs.cache
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\obj\Debug\netcoreapp3.1\Lineare Regression.csproj.CopyComplete
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\obj\Debug\netcoreapp3.1\Lineare Regression.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\obj\Debug\netcoreapp3.1\Lineare Regression.pdb
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\obj\Debug\netcoreapp3.1\Lineare Regression.genruntimeconfig.cache
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\OpenCvSharp.WpfExtensions.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\OpenCvSharpExtern.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\opencv_videoio_ffmpeg451_64.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\OpenCvSharpExtern.dll
+D:\Programme\C#\Projekte\Lineare Regression\Lineare Regression\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\opencv_videoio_ffmpeg451.dll

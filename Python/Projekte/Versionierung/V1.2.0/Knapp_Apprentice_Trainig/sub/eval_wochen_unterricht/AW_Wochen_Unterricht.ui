@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Auswertung</class>
+ <widget class="QDialog" name="Auswertung">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>922</width>
+    <height>807</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Auswertung - Wochenplan</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>900</width>
+       <height>250</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Austwerung</string>
+     </property>
+     <widget class="QCheckBox" name="ch_teilnehmer">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>130</y>
+        <width>110</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Teilnehmer</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cb_ausbilder">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>30</y>
+        <width>171</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_suchen">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>190</y>
+        <width>100</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Suchen</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/searchmagnifierinterfacesymbol1_79893.ico</normaloff>../../_Symbole/UsedSymbols/searchmagnifierinterfacesymbol1_79893.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cb_unterrichtsthema">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>80</y>
+        <width>171</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>12</x>
+        <y>39</y>
+        <width>87</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Datum von:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>82</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Datum bis:</string>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="de_bis">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>80</y>
+        <width>109</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="dateTime">
+       <datetime>
+        <hour>0</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <year>2021</year>
+        <month>1</month>
+        <day>1</day>
+       </datetime>
+      </property>
+      <property name="displayFormat">
+       <string>yyyy.MM.dd</string>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="de_von">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>109</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::WheelFocus</enum>
+      </property>
+      <property name="buttonSymbols">
+       <enum>QAbstractSpinBox::UpDownArrows</enum>
+      </property>
+      <property name="dateTime">
+       <datetime>
+        <hour>0</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <year>2021</year>
+        <month>1</month>
+        <day>1</day>
+       </datetime>
+      </property>
+      <property name="displayFormat">
+       <string>yyyy.MM.dd</string>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>30</y>
+        <width>87</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ausbilder:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>80</y>
+        <width>141</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Unterrichtsthema:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="ch_bewertung">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>130</y>
+        <width>110</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Bewertung</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_excel">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>190</y>
+        <width>100</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Excel</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/coordinated_assessment_documents_report_icon_148377.ico</normaloff>../../_Symbole/UsedSymbols/coordinated_assessment_documents_report_icon_148377.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_abbrechen">
+      <property name="geometry">
+       <rect>
+        <x>455</x>
+        <y>190</y>
+        <width>100</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>100</horstretch>
+        <verstretch>25</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Hauptmenü</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/log-out_icon-icons.com_50106.ico</normaloff>../../_Symbole/UsedSymbols/log-out_icon-icons.com_50106.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_report">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>190</y>
+        <width>100</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>100</horstretch>
+        <verstretch>25</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Report</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/reporting_noun_report_document_file_icon_148360.ico</normaloff>../../_Symbole/UsedSymbols/reporting_noun_report_document_file_icon_148360.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_hilfe">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>190</y>
+        <width>100</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>100</horstretch>
+        <verstretch>25</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Hilfe</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/education_cap_icon_157723.ico</normaloff>../../_Symbole/UsedSymbols/education_cap_icon_157723.ico</iconset>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tw_Table">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>900</width>
+       <height>500</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lab_INFO">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

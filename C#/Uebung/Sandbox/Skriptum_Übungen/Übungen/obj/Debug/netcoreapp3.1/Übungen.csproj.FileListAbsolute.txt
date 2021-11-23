@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\bin\Debug\netcoreapp3.1\Übungen.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\bin\Debug\netcoreapp3.1\Übungen.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\bin\Debug\netcoreapp3.1\Übungen.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\bin\Debug\netcoreapp3.1\Übungen.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\bin\Debug\netcoreapp3.1\Übungen.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\bin\Debug\netcoreapp3.1\Übungen.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\obj\Debug\netcoreapp3.1\Übungen.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\obj\Debug\netcoreapp3.1\Übungen.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\obj\Debug\netcoreapp3.1\Übungen.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\obj\Debug\netcoreapp3.1\Übungen.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\obj\Debug\netcoreapp3.1\Übungen.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\obj\Debug\netcoreapp3.1\Übungen.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Skriptum_Übungen\Übungen\obj\Debug\netcoreapp3.1\Übungen.genruntimeconfig.cache

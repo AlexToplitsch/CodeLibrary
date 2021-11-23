@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\bin\Debug\netcoreapp3.1\Schachbrett.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\bin\Debug\netcoreapp3.1\Schachbrett.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\bin\Debug\netcoreapp3.1\Schachbrett.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\bin\Debug\netcoreapp3.1\Schachbrett.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\bin\Debug\netcoreapp3.1\Schachbrett.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\bin\Debug\netcoreapp3.1\Schachbrett.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\obj\Debug\netcoreapp3.1\Schachbrett.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\obj\Debug\netcoreapp3.1\Schachbrett.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\obj\Debug\netcoreapp3.1\Schachbrett.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\obj\Debug\netcoreapp3.1\Schachbrett.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\obj\Debug\netcoreapp3.1\Schachbrett.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\obj\Debug\netcoreapp3.1\Schachbrett.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Schachbrett\Schachbrett\obj\Debug\netcoreapp3.1\Schachbrett.genruntimeconfig.cache

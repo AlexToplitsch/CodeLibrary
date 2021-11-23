@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\bin\Debug\netcoreapp3.1\Quadratische Gleichungen.exe
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\bin\Debug\netcoreapp3.1\Quadratische Gleichungen.deps.json
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\bin\Debug\netcoreapp3.1\Quadratische Gleichungen.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\bin\Debug\netcoreapp3.1\Quadratische Gleichungen.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\bin\Debug\netcoreapp3.1\Quadratische Gleichungen.dll
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\bin\Debug\netcoreapp3.1\Quadratische Gleichungen.pdb
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\obj\Debug\netcoreapp3.1\Quadratische Gleichungen.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\obj\Debug\netcoreapp3.1\Quadratische Gleichungen.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\obj\Debug\netcoreapp3.1\Quadratische Gleichungen.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\obj\Debug\netcoreapp3.1\Quadratische Gleichungen.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\obj\Debug\netcoreapp3.1\Quadratische Gleichungen.dll
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\obj\Debug\netcoreapp3.1\Quadratische Gleichungen.pdb
+D:\IT-Unterricht\Programme\C#\Quadratische Gleichungen\obj\Debug\netcoreapp3.1\Quadratische Gleichungen.genruntimeconfig.cache

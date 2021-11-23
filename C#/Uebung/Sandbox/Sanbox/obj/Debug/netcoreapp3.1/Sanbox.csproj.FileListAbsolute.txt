@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\bin\Debug\netcoreapp3.1\Sanbox.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\bin\Debug\netcoreapp3.1\Sanbox.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\bin\Debug\netcoreapp3.1\Sanbox.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\bin\Debug\netcoreapp3.1\Sanbox.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\bin\Debug\netcoreapp3.1\Sanbox.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\bin\Debug\netcoreapp3.1\Sanbox.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\obj\Debug\netcoreapp3.1\Sanbox.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\obj\Debug\netcoreapp3.1\Sanbox.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\obj\Debug\netcoreapp3.1\Sanbox.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\obj\Debug\netcoreapp3.1\Sanbox.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\obj\Debug\netcoreapp3.1\Sanbox.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\obj\Debug\netcoreapp3.1\Sanbox.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Sanbox\obj\Debug\netcoreapp3.1\Sanbox.genruntimeconfig.cache

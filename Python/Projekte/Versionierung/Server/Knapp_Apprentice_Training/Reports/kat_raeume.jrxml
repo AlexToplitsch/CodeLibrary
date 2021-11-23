@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.1.final using JasperReports Library version 6.5.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="apprentice_raeume" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1609f32e-1c20-432b-b54d-c3072255d23b">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SQListe-KAT.db"/>
+	<queryString language="SQL">
+		<![CDATA[select * from kat_raeume]]>
+	</queryString>
+	<field name="Raum" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Raum"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_raeume"/>
+	</field>
+	<field name="Gebäude" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Gebäude"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_raeume"/>
+	</field>
+	<field name="Stock" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Stock"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_raeume"/>
+	</field>
+	<field name="RaumNr" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="RaumNr"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_raeume"/>
+	</field>
+	<field name="Plätze" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Plätze"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_raeume"/>
+	</field>
+	<field name="Benutzer" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Benutzer"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_raeume"/>
+	</field>
+	<field name="Änderung" class="java.lang.Object">
+		<property name="com.jaspersoft.studio.field.label" value="Änderung"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="kat_raeume"/>
+	</field>
+	<group name="Raum">
+		<groupExpression><![CDATA[$F{Raum}]]></groupExpression>
+	</group>
+	<group name="Gebäude">
+		<groupExpression><![CDATA[$F{Gebäude}]]></groupExpression>
+	</group>
+	<group name="Stock">
+		<groupExpression><![CDATA[$F{Stock}]]></groupExpression>
+	</group>
+	<group name="RaumNr">
+		<groupExpression><![CDATA[$F{RaumNr}]]></groupExpression>
+	</group>
+	<group name="Plätze">
+		<groupExpression><![CDATA[$F{Plätze}]]></groupExpression>
+	</group>
+	<group name="Benutzer">
+		<groupExpression><![CDATA[$F{Benutzer}]]></groupExpression>
+	</group>
+	<group name="Änderung">
+		<groupExpression><![CDATA[$F{Änderung}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="90" splitType="Stretch">
+			<image>
+				<reportElement x="193" y="19" width="170" height="50" uuid="18d0bc6e-1474-4c2a-949a-47df0f37a382"/>
+				<imageExpression><![CDATA["../Knapp_Apprentice_Training/_Symbole/UsedSymbols/Knapp_Logo.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="38" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="81" height="30" uuid="592260eb-b454-43eb-952a-5da500573aeb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="787f5039-9e36-4710-8565-1a308b8bd028"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Raum]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="79" y="0" width="79" height="30" uuid="342bac7f-1229-4001-980c-f55b5c599392">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b7c32e1d-b3cb-4811-a7b5-871eb83ede97"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gebäude]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="162" y="0" width="79" height="30" uuid="3fdb3e40-081f-40b1-80f1-f2ef72d6ba9c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9b5910ca-cb1d-4643-8c1c-c083760fcac8"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Stock]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="239" y="0" width="79" height="30" uuid="4d57b373-1498-4c3a-b648-38238a77b611">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="90ead8b3-3ae2-4f54-a48d-3229d592f3b2"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RaumNr]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="318" y="0" width="79" height="30" uuid="26733655-ee29-4dfe-a3c7-b8122643484f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1d7f3532-50d5-4c90-b5de-40707f90c49c"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Plätze]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="0" width="79" height="30" uuid="bd1d5524-7877-43e9-b299-3d5356fa6b83">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="edefe29e-d719-48d6-a644-7fc76cdcb0fa"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Benutzer]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="476" y="0" width="79" height="30" uuid="d948ce73-348d-4760-9475-c116da03fc66">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bd86e5fe-c627-413e-8dda-73eac16693dc"/>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Änderung]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="43" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="81" height="30" uuid="3ca1a326-7d45-4fc1-831a-614782acc438">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="787f5039-9e36-4710-8565-1a308b8bd028"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Raum}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="91" y="0" width="79" height="30" uuid="22a23ec8-a6e2-4dad-a454-6baa579b5f0e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b7c32e1d-b3cb-4811-a7b5-871eb83ede97"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Gebäude}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="169" y="0" width="79" height="30" uuid="6d332a56-3607-4c06-94cf-a0a051b09ef0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9b5910ca-cb1d-4643-8c1c-c083760fcac8"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Stock}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="239" y="0" width="79" height="30" uuid="10c4a2b4-a3c3-4f47-8163-1217d4ec1f66">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="90ead8b3-3ae2-4f54-a48d-3229d592f3b2"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{RaumNr}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="318" y="0" width="79" height="30" uuid="041210c0-e4d5-49ec-8253-d14ab3768ac6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1d7f3532-50d5-4c90-b5de-40707f90c49c"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Plätze}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="397" y="0" width="79" height="30" uuid="8209c3f9-9f53-4687-bf25-91cbf69db6a0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="edefe29e-d719-48d6-a644-7fc76cdcb0fa"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Benutzer}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="476" y="0" width="79" height="30" uuid="c42177e8-9332-4e0b-9814-1af8ff9bd888">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bd86e5fe-c627-413e-8dda-73eac16693dc"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Änderung}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

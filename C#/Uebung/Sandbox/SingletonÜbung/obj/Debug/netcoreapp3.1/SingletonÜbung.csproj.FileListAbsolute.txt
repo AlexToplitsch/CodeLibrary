@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\bin\Debug\netcoreapp3.1\SingletonÜbung.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\bin\Debug\netcoreapp3.1\SingletonÜbung.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\bin\Debug\netcoreapp3.1\SingletonÜbung.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\bin\Debug\netcoreapp3.1\SingletonÜbung.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\bin\Debug\netcoreapp3.1\SingletonÜbung.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\bin\Debug\netcoreapp3.1\SingletonÜbung.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\obj\Debug\netcoreapp3.1\SingletonÜbung.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\obj\Debug\netcoreapp3.1\SingletonÜbung.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\obj\Debug\netcoreapp3.1\SingletonÜbung.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\obj\Debug\netcoreapp3.1\SingletonÜbung.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\obj\Debug\netcoreapp3.1\SingletonÜbung.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\obj\Debug\netcoreapp3.1\SingletonÜbung.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\SingletonÜbung\obj\Debug\netcoreapp3.1\SingletonÜbung.genruntimeconfig.cache

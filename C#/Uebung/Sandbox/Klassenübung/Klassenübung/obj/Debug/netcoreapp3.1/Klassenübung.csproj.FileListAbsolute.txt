@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\bin\Debug\netcoreapp3.1\Klassenübung.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\bin\Debug\netcoreapp3.1\Klassenübung.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\bin\Debug\netcoreapp3.1\Klassenübung.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\bin\Debug\netcoreapp3.1\Klassenübung.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\bin\Debug\netcoreapp3.1\Klassenübung.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\bin\Debug\netcoreapp3.1\Klassenübung.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\obj\Debug\netcoreapp3.1\Klassenübung.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\obj\Debug\netcoreapp3.1\Klassenübung.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\obj\Debug\netcoreapp3.1\Klassenübung.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\obj\Debug\netcoreapp3.1\Klassenübung.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\obj\Debug\netcoreapp3.1\Klassenübung.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\obj\Debug\netcoreapp3.1\Klassenübung.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Klassenübung\Klassenübung\obj\Debug\netcoreapp3.1\Klassenübung.genruntimeconfig.cache

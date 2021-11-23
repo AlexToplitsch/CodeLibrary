@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>797</width>
+    <height>703</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Fachrichtungen</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="gbFachrichtungen">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>779</width>
+       <height>241</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>779</width>
+       <height>241</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Fachrichtungen</string>
+     </property>
+     <widget class="QLineEdit" name="leFachrichtungabk">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>42</y>
+        <width>101</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="leFachrichtungbez">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>103</y>
+        <width>301</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblFachrichtung">
+      <property name="geometry">
+       <rect>
+        <x>227</x>
+        <y>43</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fachrichtung:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblBezeichnung">
+      <property name="geometry">
+       <rect>
+        <x>229</x>
+        <y>103</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Bezeichnung:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblLJahre">
+      <property name="geometry">
+       <rect>
+        <x>252</x>
+        <y>161</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Lehrjahre:</string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="sbLehrjahre">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>158</y>
+        <width>51</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="decimals">
+       <number>1</number>
+      </property>
+      <property name="minimum">
+       <double>3.000000000000000</double>
+      </property>
+      <property name="maximum">
+       <double>4.000000000000000</double>
+      </property>
+      <property name="singleStep">
+       <double>0.500000000000000</double>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btHilfe">
+      <property name="geometry">
+       <rect>
+        <x>684</x>
+        <y>200</y>
+        <width>93</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Hilfe</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/info_13213.ico</normaloff>../../_Symbole/UsedSymbols/info_13213.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btAbbrechen">
+      <property name="geometry">
+       <rect>
+        <x>384</x>
+        <y>200</y>
+        <width>114</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>500</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Hauptmenü</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/log-out_icon-icons.com_50106.ico</normaloff>../../_Symbole/UsedSymbols/log-out_icon-icons.com_50106.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btClear">
+      <property name="geometry">
+       <rect>
+        <x>96</x>
+        <y>200</y>
+        <width>91</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Leeren</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/-clear_90704.ico</normaloff>../../_Symbole/UsedSymbols/-clear_90704.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btCSV">
+      <property name="geometry">
+       <rect>
+        <x>591</x>
+        <y>200</y>
+        <width>91</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Report</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/reporting_noun_report_document_file_icon_148360.ico</normaloff>../../_Symbole/UsedSymbols/reporting_noun_report_document_file_icon_148360.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btSuchen">
+      <property name="geometry">
+       <rect>
+        <x>3</x>
+        <y>200</y>
+        <width>91</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Suchen</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/searchmagnifierinterfacesymbol1_79893.ico</normaloff>../../_Symbole/UsedSymbols/searchmagnifierinterfacesymbol1_79893.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btSpeichern">
+      <property name="geometry">
+       <rect>
+        <x>189</x>
+        <y>200</y>
+        <width>100</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>102</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Speichern</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/coordinated_assessment_documents_report_icon_148377.ico</normaloff>../../_Symbole/UsedSymbols/coordinated_assessment_documents_report_icon_148377.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btExcel">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>200</y>
+        <width>89</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Excel</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/microsoft_excel_icon_132212.ico</normaloff>../../_Symbole/UsedSymbols/microsoft_excel_icon_132212.ico</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btLoeschen">
+      <property name="geometry">
+       <rect>
+        <x>291</x>
+        <y>200</y>
+        <width>91</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Löschen</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../_Symbole/UsedSymbols/seo-social-web-network-internet_262_icon-icons.com_61518.ico</normaloff>../../_Symbole/UsedSymbols/seo-social-web-network-internet_262_icon-icons.com_61518.ico</iconset>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTableWidget" name="twAnzeige">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>780</width>
+       <height>400</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="tabKeyNavigation">
+      <bool>true</bool>
+     </property>
+     <property name="showDropIndicator" stdset="0">
+      <bool>true</bool>
+     </property>
+     <property name="alternatingRowColors">
+      <bool>true</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <attribute name="verticalHeaderVisible">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="lab_INFO">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>780</width>
+       <height>21</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>leFachrichtungabk</tabstop>
+  <tabstop>leFachrichtungbez</tabstop>
+  <tabstop>sbLehrjahre</tabstop>
+  <tabstop>btSuchen</tabstop>
+  <tabstop>btSpeichern</tabstop>
+  <tabstop>btAbbrechen</tabstop>
+  <tabstop>btLoeschen</tabstop>
+  <tabstop>btExcel</tabstop>
+  <tabstop>btCSV</tabstop>
+  <tabstop>btHilfe</tabstop>
+  <tabstop>twAnzeige</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

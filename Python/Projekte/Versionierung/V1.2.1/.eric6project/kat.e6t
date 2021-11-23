@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project kat -->
+<!-- Saved: 2021-02-19, 12:58:08 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="2" uid="{92b4ea3a-c444-4ce4-805d-4161dfe0ace7}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>Ui_users.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{59d18150-221f-43b2-8e67-2919ee80669e}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/apprentice/Ui_apprentice_add.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{c4a2fb68-cce1-449a-9e94-f97a537cf5fb}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/apprentice/Ui_apprentice_edit.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{20565f66-79c4-4d22-a4f3-e97a7979904e}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/apprentice/Ui_apprentice_list.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{2a6951ef-78b9-4ce3-ab50-4cad745394bb}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/apprentice/Ui_apprentice_manager.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{0f873c6b-153b-481b-a15c-8778f8dddd9e}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/ausbildungsthemen/Ui_Unterrichtsthemen.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{dd07b4a9-118c-4e2b-97ba-6987de6bf20b}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/ausbildungsthemen/Ui_Unterrichtsthemen_suchen.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{c1ca5b9e-6099-4196-962a-bd9aa0701ebd}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/bs/Ui_Bs.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{45dbfbc3-7060-485a-af38-f8daadea4fe7}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/bs/Ui_Bs_Suche.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{56ac8e19-5047-4d89-9630-be2e8de5fc08}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/eval_wochen_unterricht/AW_Wochen_Unterricht.py</Filename>
+      <Linenumber>190</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{47120681-c21c-4756-833e-a84dbe810c6f}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/eval_wochen_unterricht/Ui_AW_Wochen_Unterricht.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{51dde22f-2497-42b8-a9d1-30c21f9f43bf}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/eval_wochen_unterricht/auswertung.py</Filename>
+      <Linenumber>67</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{e2986e3a-a207-46d1-8f2f-41e47b9835e0}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/field/Ui_Fachrichtungen.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{40e7138e-6b1e-41e4-8db4-b49223dd1cc0}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/field/Ui_Fachrichtungen_Suche.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{a6885e3c-fba8-4124-84c3-3da5068f6aac}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/lapcontent/Ui_LAP_Suche.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{8713bdae-05a6-42eb-b295-3020ddb712c8}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:43</Created>
+    <Resource>
+      <Filename>sub/lapcontent/Ui_LAP_Themenkatalog.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{a18206f2-7a6b-4bea-a683-7d8f0082c360}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/login/Ui_login.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{0a635dd0-30bd-42da-977a-0fd3eab199fa}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/login/Ui_login_settings.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{8610e6d5-6811-4713-b2ba-a15d2390046d}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/passwortAendern/Ui_passwortAendern.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f51f49e9-fdaa-48f1-9988-3338e7005814}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/passwortAendern/passwortAendern.py</Filename>
+      <Linenumber>136</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{d6ab6f94-fff4-4077-a7b3-ea7103f2a560}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/presence/Ui_kat_presence.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{b39a736c-2f36-4f6b-bd0a-d8ecb06346e1}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/presence/Ui_kat_presence_suchen.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{fd7d406c-2dbc-420c-8d12-78a7b8c34277}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/presence/kat_presence.py</Filename>
+      <Linenumber>189</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{1b02835c-813e-4e89-96eb-03fced49e7a9}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/rooms/Ui_Raeume.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{7507b031-194e-4da6-93d8-cc025e253b93}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/rooms/Ui_Raeume_Suche.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{f95335f0-674c-4ecd-9143-19088a0ed790}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/specialmodules/Ui_Spezialmodule.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{39126a83-ab87-4f10-88d3-a906c835a738}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/specialmodules/Ui_spezial_suche.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{a226f767-09f5-45b8-a04c-d3c143f824e5}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/trainer/Ui_Ausbilder.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{6a175f51-0e9d-4027-9bfe-3f272ae9aba7}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/trainer/Ui_Ausbilder_suchen.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f09d717f-b4dd-45aa-9894-bf654624bec9}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/wochen_unterricht/Kopieren.py</Filename>
+      <Linenumber>193</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{54f5b256-674b-4376-b113-137caeeeb03d}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/wochen_unterricht/Lehrlings_Tabelle.py</Filename>
+      <Linenumber>63</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{9586b556-4e46-440c-849f-c45b9ce1829b}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/wochen_unterricht/hinzufuegen_Plan.py</Filename>
+      <Linenumber>278</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a729b544-1d49-4c92-aaf5-9b0e2caaacd7}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/wochen_unterricht/hinzufuegen_Plan.py</Filename>
+      <Linenumber>535</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{89c525b8-9745-4980-ade3-3a2fd6d443fa}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/wochen_unterricht/hinzufuegen_Plan.py</Filename>
+      <Linenumber>670</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ef9fe4d4-3c48-48a5-8a57-c30762c17e1b}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>sub/wochen_unterricht/hinzufuegen_Plan.py</Filename>
+      <Linenumber>747</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{102cacd3-9658-4ef3-8b1e-b857243643e9}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:17:44</Created>
+    <Resource>
+      <Filename>users.py</Filename>
+      <Linenumber>85</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{3059247b-5ae2-4855-848c-8b5d13545f89}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:19:50</Created>
+    <Resource>
+      <Filename>sub/learningcontent/Ui_Lehrstoff.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{51f17bcc-c539-4bb2-991d-3086db69eac0}">
+    <Summary>WARNING: Any manual changes made to this file will be lost when pyuic5 is</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 07:20:00</Created>
+    <Resource>
+      <Filename>sub/learningcontent/Ui_LehrstoffSuchen.py</Filename>
+      <Linenumber>7</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3275d7a8-d9fe-4c2c-9f35-f0fe3f152096}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-02-19, 09:47:44</Created>
+    <Resource>
+      <Filename>sub/mainwindow/mainwindow.py</Filename>
+      <Linenumber>140</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

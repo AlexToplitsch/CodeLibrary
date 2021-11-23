@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\bin\Debug\SuperaAdventure.exe.config
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\bin\Debug\SuperaAdventure.exe
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\bin\Debug\SuperaAdventure.pdb
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\bin\Debug\Engine.dll
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\bin\Debug\Engine.pdb
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\obj\Debug\SuperaAdventure.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\obj\Debug\SuperaAdventure.Properties.Resources.resources
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\obj\Debug\SuperaAdventure.csproj.GenerateResource.cache
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\obj\Debug\SuperaAdventure.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\obj\Debug\SuperaAdventure.csproj.CopyComplete
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\obj\Debug\SuperaAdventure.exe
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\obj\Debug\SuperaAdventure.pdb
+D:\IT-Unterricht\Programme\C#\AdventureGame\SuperaAdventure\obj\Debug\SuperaAdventure.SuperAdventure.resources

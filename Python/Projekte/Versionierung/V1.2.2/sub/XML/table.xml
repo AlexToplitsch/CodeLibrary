@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<root>
+ <Record>
+  <ID>0</ID>
+  <NAME>Marvin</NAME>
+  <SIZE>180cm</SIZE>
+ </Record>
+ <Record>
+  <ID>1</ID>
+  <NAME>heggo</NAME>
+  <SIZE>100cm</SIZE>
+ </Record>
+</root>

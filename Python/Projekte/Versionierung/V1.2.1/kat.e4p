@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project kat -->
+<!-- Saved: 2021-02-19, 12:58:06 -->
+<!-- Copyright (C) 2021 ,  -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>9a1c1b2694c6ff1a98437d27b30ccacafe2124e4</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Eol index="0"/>
+  <Sources>
+    <Source>Ui_users.py</Source>
+    <Source>__init__.py</Source>
+    <Source>login.py</Source>
+    <Source>other/database.py</Source>
+    <Source>sub/XML/MainXMLTest.py</Source>
+    <Source>sub/XML/XML_Class.py</Source>
+    <Source>sub/apprentice/Ui_apprentice_add.py</Source>
+    <Source>sub/apprentice/Ui_apprentice_edit.py</Source>
+    <Source>sub/apprentice/Ui_apprentice_list.py</Source>
+    <Source>sub/apprentice/Ui_apprentice_manager.py</Source>
+    <Source>sub/apprentice/apprentice_add.py</Source>
+    <Source>sub/apprentice/apprentice_edit.py</Source>
+    <Source>sub/apprentice/apprentice_list.py</Source>
+    <Source>sub/apprentice/apprentice_manager.py</Source>
+    <Source>sub/ausbildungsthemen/Ui_Unterrichtsthemen.py</Source>
+    <Source>sub/ausbildungsthemen/Ui_Unterrichtsthemen_suchen.py</Source>
+    <Source>sub/ausbildungsthemen/Unterrichtsthemen.py</Source>
+    <Source>sub/ausbildungsthemen/Unterrichtsthemen_suchen.py</Source>
+    <Source>sub/bs/Bs.py</Source>
+    <Source>sub/bs/Bs_Suche.py</Source>
+    <Source>sub/bs/Ui_Bs.py</Source>
+    <Source>sub/bs/Ui_Bs_Suche.py</Source>
+    <Source>sub/eval_wochen_unterricht/AW_Wochen_Unterricht.py</Source>
+    <Source>sub/eval_wochen_unterricht/Ui_AW_Wochen_Unterricht.py</Source>
+    <Source>sub/eval_wochen_unterricht/auswertung.py</Source>
+    <Source>sub/field/Fachrichtungen.py</Source>
+    <Source>sub/field/Fachrichtungen_Suche.py</Source>
+    <Source>sub/field/Ui_Fachrichtungen.py</Source>
+    <Source>sub/field/Ui_Fachrichtungen_Suche.py</Source>
+    <Source>sub/lapcontent/LAP_Suche.py</Source>
+    <Source>sub/lapcontent/LAP_Themenkatalog.py</Source>
+    <Source>sub/lapcontent/Ui_LAP_Suche.py</Source>
+    <Source>sub/lapcontent/Ui_LAP_Themenkatalog.py</Source>
+    <Source>sub/learningcontent/Lehrstoff.py</Source>
+    <Source>sub/learningcontent/LehrstoffSuchen.py</Source>
+    <Source>sub/learningcontent/Ui_Lehrstoff.py</Source>
+    <Source>sub/learningcontent/Ui_LehrstoffSuchen.py</Source>
+    <Source>sub/login/Ui_login.py</Source>
+    <Source>sub/login/Ui_login_settings.py</Source>
+    <Source>sub/login/login_settings.py</Source>
+    <Source>sub/mainwindow/Ui_mainwindow.py</Source>
+    <Source>sub/mainwindow/mainwindow.py</Source>
+    <Source>sub/passwortAendern/Ui_passwortAendern.py</Source>
+    <Source>sub/passwortAendern/passwortAendern.py</Source>
+    <Source>sub/presence/Ui_kat_presence.py</Source>
+    <Source>sub/presence/Ui_kat_presence_suchen.py</Source>
+    <Source>sub/presence/kat_presence.py</Source>
+    <Source>sub/presence/kat_presence_suchen.py</Source>
+    <Source>sub/rooms/Raeume.py</Source>
+    <Source>sub/rooms/Raeume_Suche.py</Source>
+    <Source>sub/rooms/Ui_Raeume.py</Source>
+    <Source>sub/rooms/Ui_Raeume_Suche.py</Source>
+    <Source>sub/specialmodules/Spezialmodule.py</Source>
+    <Source>sub/specialmodules/Ui_Spezialmodule.py</Source>
+    <Source>sub/specialmodules/Ui_spezial_suche.py</Source>
+    <Source>sub/specialmodules/spezial_suche.py</Source>
+    <Source>sub/trainer/Ausbilder.py</Source>
+    <Source>sub/trainer/Ausbilder_suchen.py</Source>
+    <Source>sub/trainer/Ui_Ausbilder.py</Source>
+    <Source>sub/trainer/Ui_Ausbilder_suchen.py</Source>
+    <Source>sub/wochen_unterricht/Anwesenheit.py</Source>
+    <Source>sub/wochen_unterricht/Kopieren.py</Source>
+    <Source>sub/wochen_unterricht/Lehrlings_Tabelle.py</Source>
+    <Source>sub/wochen_unterricht/Ui_Anwesenheit.py</Source>
+    <Source>sub/wochen_unterricht/Ui_Kopieren.py</Source>
+    <Source>sub/wochen_unterricht/Ui_Lehrlings_Tabelle.py</Source>
+    <Source>sub/wochen_unterricht/Ui_Wochen_Unterricht.py</Source>
+    <Source>sub/wochen_unterricht/Ui_hinzufuegen_Plan.py</Source>
+    <Source>sub/wochen_unterricht/Wochen_Unterricht.py</Source>
+    <Source>sub/wochen_unterricht/__init__.py</Source>
+    <Source>sub/wochen_unterricht/hinzufuegen_Plan.py</Source>
+    <Source>users.py</Source>
+  </Sources>
+  <Forms>
+    <Form>sub/apprentice/apprentice_add.ui</Form>
+    <Form>sub/apprentice/apprentice_edit.ui</Form>
+    <Form>sub/apprentice/apprentice_list.ui</Form>
+    <Form>sub/apprentice/apprentice_manager.ui</Form>
+    <Form>sub/ausbildungsthemen/Unterrichtsthemen.ui</Form>
+    <Form>sub/ausbildungsthemen/Unterrichtsthemen_suchen.ui</Form>
+    <Form>sub/bs/Bs.ui</Form>
+    <Form>sub/eval_wochen_unterricht/AW_Wochen_Unterricht.ui</Form>
+    <Form>sub/eval_wochen_unterricht/auswertung.ui</Form>
+    <Form>sub/field/Fachrichtungen.ui</Form>
+    <Form>sub/field/Fachrichtungen_Suche.ui</Form>
+    <Form>sub/lapcontent/LAP_Suche.ui</Form>
+    <Form>sub/lapcontent/LAP_Themenkatalog.ui</Form>
+    <Form>sub/learningcontent/Lehrstoff.ui</Form>
+    <Form>sub/learningcontent/LehrstoffSuchen.ui</Form>
+    <Form>sub/login/login.ui</Form>
+    <Form>sub/login/login_settings.ui</Form>
+    <Form>sub/mainwindow/mainwindow.ui</Form>
+    <Form>sub/passwortAendern/passwortAendern.ui</Form>
+    <Form>sub/presence/kat_presence.ui</Form>
+    <Form>sub/rooms/Raeume.ui</Form>
+    <Form>sub/rooms/Raeume_Suche.ui</Form>
+    <Form>sub/specialmodules/Spezialmodule.ui</Form>
+    <Form>sub/specialmodules/spezial_suche.ui</Form>
+    <Form>sub/trainer/Ausbilder.ui</Form>
+    <Form>sub/trainer/Ausbilder_suchen.ui</Form>
+    <Form>sub/wochen_unterricht/Kopieren.ui</Form>
+    <Form>sub/wochen_unterricht/Lehrlings_Tabelle.ui</Form>
+    <Form>sub/wochen_unterricht/Wochen_Unterricht.ui</Form>
+    <Form>sub/wochen_unterricht/hinzufuegen_Plan.ui</Form>
+    <Form>users.ui</Form>
+  </Forms>
+  <Others>
+    <Other>kat.e4p</Other>
+    <Other>sub/XML/xml.e4p</Other>
+    <Other>sub/wochen_unterricht/Wochen_Unterricht.e4p</Other>
+  </Others>
+  <MainScript>login.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.md" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.proto" type="PROTOCOLS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.rst" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.txt" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="GNUmakefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="Makefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="README" type="OTHERS"/>
+    <FiletypeAssociation pattern="README.*" type="OTHERS"/>
+    <FiletypeAssociation pattern="makefile" type="OTHERS"/>
+  </FiletypeAssociations>
+  <Packagers>
+    <PackagersParams>
+      <dict>
+        <key>
+          <string>PYINSTALLER</string>
+        </key>
+        <value>
+          <dict>
+            <key>
+              <string>cleanBeforeBuilding</string>
+            </key>
+            <value>
+              <bool>True</bool>
+            </value>
+            <key>
+              <string>consoleApplication</string>
+            </key>
+            <value>
+              <bool>False</bool>
+            </value>
+            <key>
+              <string>iconFile</string>
+            </key>
+            <value>
+              <string>Z:\Knapp_Apprentice_Training\_Symbole\UsedSymbols\kat.ico</string>
+            </value>
+            <key>
+              <string>iconId</string>
+            </key>
+            <value>
+              <string></string>
+            </value>
+            <key>
+              <string>name</string>
+            </key>
+            <value>
+              <string>Knapp_Apprentice_Training_Final</string>
+            </value>
+            <key>
+              <string>pyinstaller</string>
+            </key>
+            <value>
+              <string>C:\Users\thanner\AppData\Local\Programs\Python\Python38\Scripts\pyinstaller.exe</string>
+            </value>
+          </dict>
+        </value>
+      </dict>
+    </PackagersParams>
+  </Packagers>
+</Project>

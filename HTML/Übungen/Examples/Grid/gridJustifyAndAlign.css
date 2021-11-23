@@ -1,0 +1,28 @@
+html, body{
+    height: 94%;
+    margin: 0;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container > div{
+    display: flex;
+    background: rgba(59, 97, 54, 0.616);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template: 50px 50px / repeat(3, 50px);
+    grid-gap: 2px;
+    border: solid black 1px;
+
+    justify-content: space-evenly; /* aligns the content (the whole div, including margin and border) horizontal in the container*/
+    align-content: space-around;  /* aligns the content (the whole div, including margin and border) vertical in the container*/
+}

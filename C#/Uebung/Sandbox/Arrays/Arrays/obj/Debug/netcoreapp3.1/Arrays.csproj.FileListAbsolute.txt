@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.genruntimeconfig.cache

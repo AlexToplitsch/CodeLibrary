@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\bin\Debug\netcoreapp3.1\DataStructureDemo.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\bin\Debug\netcoreapp3.1\DataStructureDemo.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\bin\Debug\netcoreapp3.1\DataStructureDemo.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\bin\Debug\netcoreapp3.1\DataStructureDemo.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\bin\Debug\netcoreapp3.1\DataStructureDemo.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\bin\Debug\netcoreapp3.1\DataStructureDemo.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\obj\Debug\netcoreapp3.1\DataStructureDemo.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\obj\Debug\netcoreapp3.1\DataStructureDemo.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\obj\Debug\netcoreapp3.1\DataStructureDemo.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\obj\Debug\netcoreapp3.1\DataStructureDemo.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\obj\Debug\netcoreapp3.1\DataStructureDemo.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\obj\Debug\netcoreapp3.1\DataStructureDemo.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\DataStructureDemo\obj\Debug\netcoreapp3.1\DataStructureDemo.genruntimeconfig.cache

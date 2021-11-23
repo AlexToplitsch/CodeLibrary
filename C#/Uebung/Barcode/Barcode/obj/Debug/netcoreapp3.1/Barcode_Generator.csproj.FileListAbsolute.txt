@@ -1,0 +1,16 @@
+D:\Programme\C#\Übungen\Barcode\Barcode\bin\Debug\netcoreapp3.1\Barcode_Generator.exe
+D:\Programme\C#\Übungen\Barcode\Barcode\bin\Debug\netcoreapp3.1\Barcode_Generator.deps.json
+D:\Programme\C#\Übungen\Barcode\Barcode\bin\Debug\netcoreapp3.1\Barcode_Generator.runtimeconfig.json
+D:\Programme\C#\Übungen\Barcode\Barcode\bin\Debug\netcoreapp3.1\Barcode_Generator.runtimeconfig.dev.json
+D:\Programme\C#\Übungen\Barcode\Barcode\bin\Debug\netcoreapp3.1\Barcode_Generator.dll
+D:\Programme\C#\Übungen\Barcode\Barcode\bin\Debug\netcoreapp3.1\Barcode_Generator.pdb
+D:\Programme\C#\Übungen\Barcode\Barcode\bin\Debug\netcoreapp3.1\Algorithmen.dll
+D:\Programme\C#\Übungen\Barcode\Barcode\bin\Debug\netcoreapp3.1\Algorithmen.pdb
+D:\Programme\C#\Übungen\Barcode\Barcode\obj\Debug\netcoreapp3.1\Barcode_Generator.csprojAssemblyReference.cache
+D:\Programme\C#\Übungen\Barcode\Barcode\obj\Debug\netcoreapp3.1\Barcode_Generator.AssemblyInfoInputs.cache
+D:\Programme\C#\Übungen\Barcode\Barcode\obj\Debug\netcoreapp3.1\Barcode_Generator.AssemblyInfo.cs
+D:\Programme\C#\Übungen\Barcode\Barcode\obj\Debug\netcoreapp3.1\Barcode_Generator.csproj.CoreCompileInputs.cache
+D:\Programme\C#\Übungen\Barcode\Barcode\obj\Debug\netcoreapp3.1\Barcode_Generator.csproj.CopyComplete
+D:\Programme\C#\Übungen\Barcode\Barcode\obj\Debug\netcoreapp3.1\Barcode_Generator.dll
+D:\Programme\C#\Übungen\Barcode\Barcode\obj\Debug\netcoreapp3.1\Barcode_Generator.pdb
+D:\Programme\C#\Übungen\Barcode\Barcode\obj\Debug\netcoreapp3.1\Barcode_Generator.genruntimeconfig.cache

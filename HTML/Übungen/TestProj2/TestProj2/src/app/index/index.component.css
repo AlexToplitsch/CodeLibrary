@@ -1,0 +1,51 @@
+.content1{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+}
+
+.image{
+    display: block;
+    margin: 0 auto;
+    width: 378px;
+    border-radius: 10px;
+}
+
+.informations{
+    display: flex;
+}
+
+.contentList{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentList > li{
+    display: flex;
+    margin-top: 10px;
+}
+.contentList > li > div{
+    margin-left: 10px;
+}
+
+
+.contentDescription{
+    font-weight: bold;
+}
+
+.footer{
+    margin: 20px 0;
+    font-size: 12px;
+    grid-row: 3 / 4;
+    grid-column: span 12;
+    text-align: center;
+}
+
+.footer > a{
+    color: grey;
+    text-decoration: none;
+}
+
+.footer > a:hover{
+    color: blue;
+}

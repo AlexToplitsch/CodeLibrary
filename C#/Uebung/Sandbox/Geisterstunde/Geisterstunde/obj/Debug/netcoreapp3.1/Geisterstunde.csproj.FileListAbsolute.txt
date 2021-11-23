@@ -1,0 +1,13 @@
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\bin\Debug\netcoreapp3.1\Geisterstunde.exe
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\bin\Debug\netcoreapp3.1\Geisterstunde.deps.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\bin\Debug\netcoreapp3.1\Geisterstunde.runtimeconfig.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\bin\Debug\netcoreapp3.1\Geisterstunde.runtimeconfig.dev.json
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\bin\Debug\netcoreapp3.1\Geisterstunde.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\bin\Debug\netcoreapp3.1\Geisterstunde.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\obj\Debug\netcoreapp3.1\Geisterstunde.csprojAssemblyReference.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\obj\Debug\netcoreapp3.1\Geisterstunde.AssemblyInfoInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\obj\Debug\netcoreapp3.1\Geisterstunde.AssemblyInfo.cs
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\obj\Debug\netcoreapp3.1\Geisterstunde.csproj.CoreCompileInputs.cache
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\obj\Debug\netcoreapp3.1\Geisterstunde.dll
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\obj\Debug\netcoreapp3.1\Geisterstunde.pdb
+D:\IT-Unterricht\Programme\C#\Sandbox\Geisterstunde\Geisterstunde\obj\Debug\netcoreapp3.1\Geisterstunde.genruntimeconfig.cache
