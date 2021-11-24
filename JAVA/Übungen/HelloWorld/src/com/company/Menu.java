@@ -16,7 +16,8 @@ public class Menu {
         while (true) {
             System.out.println("###################### Rechner #######################");
             System.out.print("Abbrechen? [J/N]: ");
-            switch (in.nextLine().toLowerCase(Locale.ROOT)) {
+            switch (in.nextLine()
+                      .toLowerCase(Locale.ROOT)) {
                 case "j":
                     return;
                 case "n":
@@ -34,10 +35,33 @@ public class Menu {
      * repeated as long as the path is not valid!
      **/
     private static void selectPath() {
-        System.out.print("Geben Sie den Dateipfad, ohne Datei ein: ");
+        System.out.print("Geben Sie den Dateipfad ohne Datei ein: ");
 
         while (!writer.setPath(in.nextLine())) {
             System.out.println("Der Pfad ist nicht gültig. Ein gültiger String sieht " + "folgendermaßen aus: 'D:\\path\\directory\\'");
+        }
+        if (!writer.pathExists()) {
+            createPath();
+        }
+    }
+
+    /**
+     * Decision if the path should be created. If not selectPath is called again!
+     */
+    private static void createPath() {
+        System.out.println("Pfad existiert nicht! Wollen Sie diesen erstellen? [J/N] ");
+        while (true) {
+            switch (in.nextLine()
+                      .toLowerCase(Locale.ROOT)) {
+                case "j":
+                    writer.createDirectories();
+                    return;
+                case "n":
+                    selectPath();
+                    return;
+                default:
+                    System.out.println("Geben Sie 'J' für Ja oder 'N' für Nein ein! ");
+            }
         }
     }
 
@@ -160,21 +184,20 @@ public class Menu {
     }
 
     /**
-     * Calls the Function of the FileWriter class that saves it in a txt file.
+     * Calls the Function of the FileWriter class that saves the equation in a txt file.
      *
      * @param str The equation as String that will be saved
      */
     private static void saveInFile(String str) {
-        System.out.print("Wollen Sie die Gleichung in der Datei " +
-                                 writer.getPath() + writer.getFilename() + " speichern? [J/N] ");
+        System.out.print("Wollen Sie die Gleichung in der Datei " + writer.getPath() + writer.getFilename() + " speichern? [J/N] ");
         boolean notSaved = true;
-        while(notSaved) {
+        while (notSaved) {
             notSaved = false;
             switch (in.nextLine()
                       .toLowerCase(Locale.ROOT)) {
                 case "j":
                     try {
-                        writer.save(str);
+                        writer.writeToFile(str);
                     } catch (java.io.IOException throwable) {
                         System.out.println("Gleichung  konnte nicht gespeichert werden!\n" + "Fehler: " + throwable.getMessage());
                     }
