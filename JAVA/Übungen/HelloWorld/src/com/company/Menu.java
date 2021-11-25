@@ -1,21 +1,31 @@
 package com.company;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import java.io.File;
 import java.util.Locale;
 import java.util.Scanner;
 
+
 public class Menu {
+    private static final Logger logger = LogManager.getLogger(Menu.class);
     private static final MyFileWriter writer = new MyFileWriter();
     private static final Scanner in = new Scanner(System.in);
     private static Calculator calc;
 
     public static void main() {
-        selectPath();
-        selectFilename();
+        if(!selectFile()) {
+            return;
+        }
         initCalculator();
 
         while (true) {
-            System.out.println("###################### Rechner #######################");
-            System.out.print("Abbrechen? [J/N]: ");
+
+            logger.info("###################### Rechner #######################");
+            logger.info("Abbrechen? [J/N]: ");
             switch (in.nextLine()
                       .toLowerCase(Locale.ROOT)) {
                 case "j":
@@ -25,66 +35,50 @@ public class Menu {
                     operandInput(values[0], values[1]);
                     break;
                 default:
-                    System.out.println("Geben Sie 'J' für Ja oder 'N' für Nein ein! \n");
+                    logger.info("Geben Sie 'J' für Ja oder 'N' für Nein ein! \n");
             }
         }
     }
 
     /**
-     * Reads the path from the command line and hands it to the FileWriter class. Will be
-     * repeated as long as the path is not valid!
-     **/
-    private static void selectPath() {
-        System.out.print("Geben Sie den Dateipfad ohne Datei ein: ");
-
-        while (!writer.setPath(in.nextLine())) {
-            System.out.println("Der Pfad ist nicht gültig. Ein gültiger String sieht " + "folgendermaßen aus: 'D:\\path\\directory\\'");
-        }
-        if (!writer.pathExists()) {
-            createPath();
-        }
-    }
-
-    /**
-     * Decision if the path should be created. If not selectPath is called again!
+     * Opens the JFileChooser and sets the path and the filename in writer Object
+     * If the path or the file is not valid it reopens the file chooser. If the FileChooser option equals
+     * CANCEL_OPTION
      */
-    private static void createPath() {
-        System.out.println("Pfad existiert nicht! Wollen Sie diesen erstellen? [J/N] ");
-        while (true) {
-            switch (in.nextLine()
-                      .toLowerCase(Locale.ROOT)) {
-                case "j":
-                    writer.createDirectories();
-                    return;
-                case "n":
-                    selectPath();
-                    return;
-                default:
-                    System.out.println("Geben Sie 'J' für Ja oder 'N' für Nein ein! ");
+    private static boolean selectFile() {
+        JFileChooser chooser = new JFileChooser("D:\\");
+        // Window settings
+        chooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
+        chooser.setFileFilter(new FileNameExtensionFilter("Text files", "txt"));
+        chooser.setAcceptAllFileFilterUsed(false);
+
+        int option = chooser.showOpenDialog(null); // how the FileChooser was closed
+        // if the open button is clicked
+        if (option == JFileChooser.APPROVE_OPTION) {
+            File f = chooser.getSelectedFile();
+            if(!writer.setFilePath(f.getAbsolutePath())){
+                selectFile();
             }
+            return true;
         }
-    }
-
-    /**
-     * Reads the filename from the command line and hands it to the FileWriter class. Will be
-     * repeated as long as the filename is not valid!
-     **/
-    private static void selectFilename() {
-        System.out.print("Geben Sie nun den Dateinamen mit der Endung 'txt' ein: ");
-
-        while (!writer.setFilename(in.nextLine())) {
-            System.out.println("Der Dateiname ist ungültig! Folgende Zeichen" + " dürfen nicht enthalten sein: " + "\n?, *, |, <, >, \\, /, : ");
+        else if (option == JFileChooser.CANCEL_OPTION) {
+            logger.info("See ya later!");
         }
+        else{
+            logger.info("Error: Error at file choosing!");
+        }
+        return false;
+
     }
 
     /**
      * Sets the maximum decimal points of the result
      **/
     private static void initCalculator() {
-        System.out.print("Geben Sie die maximalen Nachkommastellen ein: ");
+        logger.info("Geben Sie die maximalen Nachkommastellen ein: ");
         String value = in.nextLine();
         while (Calculator.isNotInt(value) || value.length() > 1 || Integer.parseInt(value) > 8 && Integer.parseInt(value) < 0) {
-            System.out.print("Geben Sie nur eine Ziffer (1-8) ein!");
+            logger.info("Geben Sie nur eine Ziffer (1-8) ein!");
             value = in.nextLine();
         }
 
@@ -102,24 +96,22 @@ public class Menu {
         String value;
 
         // first value
-        System.out.print("Geben Sie die erste Zahl ein: ");
+        logger.info("Geben Sie die erste Zahl ein: ");
         value = in.nextLine();
         while (Calculator.isNotNumeric(value)) {
-            System.out.print("Bitte geben Sie nur eine Zahl ein: ");
+            logger.info("Bitte geben Sie nur eine Zahl ein: ");
             value = in.nextLine();
         }
         values[0] = Float.parseFloat(value);
 
         // second value
-        System.out.print("Geben Sie die zweite Zahl ein: ");
+        logger.info("Geben Sie die zweite Zahl ein: ");
         value = in.nextLine();
         while (Calculator.isNotNumeric(value)) {
-            System.out.print("Bitte geben Sie nur eine Zahl ein: ");
+            logger.info("Bitte geben Sie nur eine Zahl ein: ");
             value = in.nextLine();
         }
         values[1] = Float.parseFloat(value);
-
-
         return values;
     }
 
@@ -132,7 +124,7 @@ public class Menu {
      */
     private static void operandInput(float a, float b) {
         boolean calculated;
-        System.out.print("Geben Sie einen Operator ein: ");
+        logger.info("Geben Sie einen Operator ein: ");
         String op;
         ArithmeticOperations operation = ArithmeticOperations.ADD;
 
@@ -157,14 +149,14 @@ public class Menu {
                     break;
                 }
                 default:
-                    System.out.println("Kein Gültiger Operator!");
+                    logger.info("Kein Gültiger Operator!");
                     calculated = false;
             }
         } while (!calculated);
         try {
             printResult(a, b, calc.calculate(operation, a, b), op);
         } catch (NullPointerException throwable) {
-            System.out.println("\n");
+            logger.info("\n");
         }
 
     }
@@ -179,7 +171,7 @@ public class Menu {
      */
     private static void printResult(float a, float b, float result, String operand) {
         String equation = a + " " + operand + " " + b + " = " + result;
-        System.out.println(equation);
+        logger.info(equation);
         saveInFile(equation);
     }
 
@@ -189,7 +181,7 @@ public class Menu {
      * @param str The equation as String that will be saved
      */
     private static void saveInFile(String str) {
-        System.out.print("Wollen Sie die Gleichung in der Datei " + writer.getPath() + writer.getFilename() + " speichern? [J/N] ");
+        logger.info("Wollen Sie die Gleichung in der Datei " + writer.getPath() + writer.getFilename() + " speichern? [J/N] ");
         boolean notSaved = true;
         while (notSaved) {
             notSaved = false;
@@ -197,15 +189,15 @@ public class Menu {
                       .toLowerCase(Locale.ROOT)) {
                 case "j":
                     try {
-                        writer.writeToFile(str);
+                        writer.writeToFile(str, logger);
                     } catch (java.io.IOException throwable) {
-                        System.out.println("Gleichung  konnte nicht gespeichert werden!\n" + "Fehler: " + throwable.getMessage());
+                        logger.error("Gleichung  konnte nicht gespeichert werden!\n" + "Fehler: " + throwable.getMessage());
                     }
                     break;
                 case "n":
                     return;
                 default:
-                    System.out.println("Geben Sie 'J' für Ja oder 'N' für Nein ein! \n");
+                    logger.info("Geben Sie 'J' für Ja oder 'N' für Nein ein! \n");
                     notSaved = true;
             }
         }
