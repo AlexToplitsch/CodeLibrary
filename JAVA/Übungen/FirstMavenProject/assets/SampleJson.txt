@@ -1,0 +1,514 @@
+{
+  "value": [
+    {
+      "id": "219f7658-b875-45f8-a3d1-06c8aa4ce8e0",
+      "name": "ENTERPRISE-WALMART_NEXTGEN-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/219f7658-b875-45f8-a3d1-06c8aa4ce8e0",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/enterprise/MASTER",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/ENTERPRISE-WALMART_NEXTGEN-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/ENTERPRISE-WALMART_NEXTGEN-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "e31f3828-0c5b-4e10-bb38-073b21969cf9",
+      "name": "GR00026-INTERSPORT_OINOFYTA-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/e31f3828-0c5b-4e10-bb38-073b21969cf9",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/GR00026",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/GR00026-INTERSPORT_OINOFYTA-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/GR00026-INTERSPORT_OINOFYTA-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "6f197f88-f07e-4400-b8f0-0e0cbda740a1",
+      "name": "ZA00008-ALPHA_PHARM_MAYVILLE-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/6f197f88-f07e-4400-b8f0-0e0cbda740a1",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/ZA00008",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/ZA00008-ALPHA_PHARM_MAYVILLE-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/ZA00008-ALPHA_PHARM_MAYVILLE-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "3c7ee4ac-0e65-4cd2-b180-137ee40eca21",
+      "name": "US00712-BUYERS_PRODUCT_MENTOR-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/3c7ee4ac-0e65-4cd2-b180-137ee40eca21",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/zdr/US00712/hcom-changes",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/US00712-BUYERS_PRODUCT_MENTOR-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/US00712-BUYERS_PRODUCT_MENTOR-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "1b1d9716-ad42-4cca-a8e2-23627679aa33",
+      "name": "NL00630-ARVATO_HEIJEN-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/1b1d9716-ad42-4cca-a8e2-23627679aa33",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/NL00630",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/NL00630-ARVATO_HEIJEN-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/NL00630-ARVATO_HEIJEN-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "d9f6e4e7-4359-473a-bc2e-27689cfa1245",
+      "name": "PL00007-OLESIEJUK_OZAROW-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/d9f6e4e7-4359-473a-bc2e-27689cfa1245",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/PL00007",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/PL00007-OLESIEJUK_OZAROW-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/PL00007-OLESIEJUK_OZAROW-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "043d34ba-e984-4429-a2a1-2e233bfc24b6",
+      "name": "KiSoft-One-Changesets",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/043d34ba-e984-4429-a2a1-2e233bfc24b6",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/master",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/KiSoft-One-Changesets",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/KiSoft-One-Changesets",
+      "isFork": true
+    },
+    {
+      "id": "f6b0ef3a-37e3-4374-bfe3-32f0a771bd5c",
+      "name": "FR00095-PHOENIX_VANDOEUVRE_LES_NANCY-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/f6b0ef3a-37e3-4374-bfe3-32f0a771bd5c",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/FR00095",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/FR00095-PHOENIX_VANDOEUVRE_LES_NANCY-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/FR00095-PHOENIX_VANDOEUVRE_LES_NANCY-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "b8cadcb2-b296-41e9-9a7f-488d0e6548ea",
+      "name": "DE01009-ARVATO_HARSEWINKEL-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/b8cadcb2-b296-41e9-9a7f-488d0e6548ea",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/DE01009",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/DE01009-ARVATO_HARSEWINKEL-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/DE01009-ARVATO_HARSEWINKEL-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "bc2c05e1-20d3-47dc-acfc-4c787f421ff6",
+      "name": "GP00001-SOPHARMA_GOUADELOUPE-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/bc2c05e1-20d3-47dc-acfc-4c787f421ff6",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/GP00001",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/GP00001-SOPHARMA_GOUADELOUPE-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/GP00001-SOPHARMA_GOUADELOUPE-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "795a74b3-38e3-4a56-8672-56290546e7a8",
+      "name": "TRAINING-WALMART_NEXTGEN-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/795a74b3-38e3-4a56-8672-56290546e7a8",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/enterprise/MASTER",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/TRAINING-WALMART_NEXTGEN-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/TRAINING-WALMART_NEXTGEN-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "f04f9d1e-8850-498d-9a6c-56aea23724d6",
+      "name": "AR00601-DROGUERIA_SUIZA_TUCUMAN-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/f04f9d1e-8850-498d-9a6c-56aea23724d6",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/AR00601",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/AR00601-DROGUERIA_SUIZA_TUCUMAN-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/AR00601-DROGUERIA_SUIZA_TUCUMAN-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "8b2cdbd4-64db-4d7c-9ae2-571f7e6cdc42",
+      "name": "BR00514-LOJAS_RENNER_CABREUVA-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/8b2cdbd4-64db-4d7c-9ae2-571f7e6cdc42",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/BR00514",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/BR00514-LOJAS_RENNER_CABREUVA-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/BR00514-LOJAS_RENNER_CABREUVA-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "7180b4d7-d880-4abe-aa65-5fd6f7f45ee5",
+      "name": "DE01007-SANACORP_NEUENSTEIN-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/7180b4d7-d880-4abe-aa65-5fd6f7f45ee5",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/DE01007",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/DE01007-SANACORP_NEUENSTEIN-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/DE01007-SANACORP_NEUENSTEIN-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "58e97b27-5f53-480b-9bc1-716b6c3f99a3",
+      "name": "ES00614-DFG_ZUBIETA-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/58e97b27-5f53-480b-9bc1-716b6c3f99a3",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/ES00614",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/ES00614-DFG_ZUBIETA-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/ES00614-DFG_ZUBIETA-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "122603b4-885a-4e62-99ec-7f7a03b32f54",
+      "name": "AU00025-API_MARSDEN_PARK-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/122603b4-885a-4e62-99ec-7f7a03b32f54",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/AU00025",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/AU00025-API_MARSDEN_PARK-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/AU00025-API_MARSDEN_PARK-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "34b3f3b7-793e-4a69-a41f-81af989aabed",
+      "name": "BR00531-C_A_SAO_PAULO-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/34b3f3b7-793e-4a69-a41f-81af989aabed",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/BR00531",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/BR00531-C_A_SAO_PAULO-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/BR00531-C_A_SAO_PAULO-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "104fadb4-005e-46a0-857f-81fa08352269",
+      "name": "GB00628-NEXT_SOUTH_YORKSHIRE-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/104fadb4-005e-46a0-857f-81fa08352269",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/GB00628/main",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/GB00628-NEXT_SOUTH_YORKSHIRE-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/GB00628-NEXT_SOUTH_YORKSHIRE-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "fc9218c7-d1ce-49e1-a711-8d4e83c6d32d",
+      "name": "SK00096-DR_MAX_BRATISLAVA-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/fc9218c7-d1ce-49e1-a711-8d4e83c6d32d",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/SK00096",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/SK00096-DR_MAX_BRATISLAVA-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/SK00096-DR_MAX_BRATISLAVA-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "67d15bb6-247a-4b4a-9135-9db8cd8cca30",
+      "name": "BE00612-KUEHNE_UND_NAGEL_BELGIUM-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/67d15bb6-247a-4b4a-9135-9db8cd8cca30",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/BE00612",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/BE00612-KUEHNE_UND_NAGEL_BELGIUM-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/BE00612-KUEHNE_UND_NAGEL_BELGIUM-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "fe344dcf-8682-4b26-8e79-a60f807f9e67",
+      "name": "Customer Projects",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/fe344dcf-8682-4b26-8e79-a60f807f9e67",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/master",
+      "remoteUrl": "https://tfs.knapp.at/KAG/_git/Customer%20Projects",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/_git/Customer%20Projects"
+    },
+    {
+      "id": "ee3932fd-6c5e-4983-9cc4-aa194098465c",
+      "name": "SE00070-AHLENS_AB_STOCKHOLM-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/ee3932fd-6c5e-4983-9cc4-aa194098465c",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/SE00070",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/SE00070-AHLENS_AB_STOCKHOLM-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/SE00070-AHLENS_AB_STOCKHOLM-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "303b4b5e-c7f8-410d-97ab-b0e266f74830",
+      "name": "GB00630-HUBRX_LEEDS-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/303b4b5e-c7f8-410d-97ab-b0e266f74830",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/GB00630",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/GB00630-HUBRX_LEEDS-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/GB00630-HUBRX_LEEDS-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "bbb1af7b-46c3-406a-a359-b2db182f5323",
+      "name": "SE00072-APOTEKET_ESKILSTUNA-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/bbb1af7b-46c3-406a-a359-b2db182f5323",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/SE00072",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/SE00072-APOTEKET_ESKILSTUNA-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/SE00072-APOTEKET_ESKILSTUNA-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "7ef49003-ca11-4987-bc6f-b59fcc676fa1",
+      "name": "DO00117-LOGIN_GOMEP_SANTO_DOMINGO-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/7ef49003-ca11-4987-bc6f-b59fcc676fa1",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/DO00117",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/DO00117-LOGIN_GOMEP_SANTO_DOMINGO-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/DO00117-LOGIN_GOMEP_SANTO_DOMINGO-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "a65be665-dcc2-42f6-a5cb-bcad7d42eefc",
+      "name": "DE01003-MEDICOLINE_PHARMA_SOLUTIONS_STEINBACH-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/a65be665-dcc2-42f6-a5cb-bcad7d42eefc",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/DE01003_new",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/DE01003-MEDICOLINE_PHARMA_SOLUTIONS_STEINBACH-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/DE01003-MEDICOLINE_PHARMA_SOLUTIONS_STEINBACH-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "f948b9ec-6a34-49ca-812b-d10f21069fb6",
+      "name": "US00001-WALMART_TRAINING_CENTER-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/f948b9ec-6a34-49ca-812b-d10f21069fb6",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/enterprise/MASTER",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/US00001-WALMART_TRAINING_CENTER-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/US00001-WALMART_TRAINING_CENTER-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "70ca640a-d050-485a-88d7-d725cac3a32e",
+      "name": "FR00088-CERP_MAREUIL_LES_MEAUX-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/70ca640a-d050-485a-88d7-d725cac3a32e",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/FR00088",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/FR00088-CERP_MAREUIL_LES_MEAUX-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/FR00088-CERP_MAREUIL_LES_MEAUX-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "ecc308a5-ebbe-4463-9dd4-df2b9649f520",
+      "name": "IT00039-UNICO_LAINATE-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/ecc308a5-ebbe-4463-9dd4-df2b9649f520",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/IT00039",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/IT00039-UNICO_LAINATE-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/IT00039-UNICO_LAINATE-KiSoft-One",
+      "isFork": true
+    },
+    {
+      "id": "438d458d-cf56-4858-9279-ec1fc484ab9d",
+      "name": "DE01010-ARVATO_HAMM-KiSoft-One",
+      "url": "https://tfs05.knapp.at/KAG/_apis/git/repositories/438d458d-cf56-4858-9279-ec1fc484ab9d",
+      "project": {
+        "id": "6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "name": "Customer Projects",
+        "url": "https://tfs05.knapp.at/KAG/_apis/projects/6fc5dd97-5cef-4f00-82de-e42ddd1bdbfa",
+        "state": "wellFormed",
+        "revision": 8810,
+        "visibility": "private"
+      },
+      "defaultBranch": "refs/heads/prepare/DE01010",
+      "remoteUrl": "https://tfs.knapp.at/KAG/Customer%20Projects/_git/DE01010-ARVATO_HAMM-KiSoft-One",
+      "sshUrl": "ssh://tfs.knapp.at:22/KAG/Customer%20Projects/_git/DE01010-ARVATO_HAMM-KiSoft-One",
+      "isFork": true
+    }
+  ],
+  "count": 30
+}
