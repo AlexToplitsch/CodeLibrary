@@ -1,6 +1,7 @@
 package json.objects;
 
 public class ValueCountObject {
+
     private ValueObject[] value;
     private int count;
 

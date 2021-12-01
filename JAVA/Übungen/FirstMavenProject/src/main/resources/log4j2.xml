@@ -20,7 +20,7 @@
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="%m%n"/>
             <Filters>
-                <RegexFilter regex="Success:[^\n]*|Error:[^\n]*" onMatch="DENY" onMismatch="Accept"/>
+                <RegexFilter regex="Success:[^\n]*|Error:[^\n]*|New Sorting Operation[^\t]*" onMatch="DENY" onMismatch="Accept"/>
             </Filters>
         </Console>
 
@@ -44,7 +44,15 @@
                 <RegexFilter regex="Error:[^\n]*" onMatch="Accept" onMismatch="Deny"/>
             </Filters>
         </File>
+
+        <File name="SORTER_FILE" fileName="D:\Development\sorter.log">
+            <PatternLayout pattern="[%d] \n%m%n"/>
+            <Filters>
+                <RegexFilter regex="New Sorting Operation[^\t]*" onMatch="Accept" onMismatch="Deny"/>
+            </Filters>
+        </File>
     </Appenders>
+
 
     <Loggers>
         <Root level="info">
@@ -52,6 +60,7 @@
             <AppenderRef ref="Console"/>
             <AppenderRef ref="OPERATION_FILE"/>
             <AppenderRef ref="ERROR_FILE"/>
+            <AppenderRef ref="SORTER_FILE"/>
         </Root>
     </Loggers>
 

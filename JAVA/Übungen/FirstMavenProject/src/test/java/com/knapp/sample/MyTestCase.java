@@ -1,7 +1,7 @@
 package com.knapp.sample;
 
-import ArithmeticOperations.ArithmeticOperations;
-import ArithmeticOperations.Calculator;
+import arithmetic.operations.ArithmeticOperations;
+import arithmetic.operations.Calculator;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
