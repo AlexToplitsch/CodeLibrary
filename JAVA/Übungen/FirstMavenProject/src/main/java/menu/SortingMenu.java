@@ -40,6 +40,10 @@ public class SortingMenu {
         time = System.currentTimeMillis() - time;
         LOG.info("Sortierdauer: " + time + "ms");
         sorter.writeToFile(time);
+        time = System.currentTimeMillis();
+        sorter.sort(desc);
+        time = System.currentTimeMillis() - time;
+        LOG.info("Sortierdauer: " + time + "ms");
     }
 
     /**
@@ -157,10 +161,15 @@ public class SortingMenu {
         }
     }
 
+    /**
+     * Prints every element of the sorted array
+     */
     private void printArray() {
+        System.out.print("[");
         for (int n : arr) {
-            System.out.printf("[%s] ", n);
+            System.out.printf("%s ", n);
         }
+        System.out.print("]");
         System.out.println();
     }
 }

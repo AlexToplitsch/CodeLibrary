@@ -47,8 +47,15 @@ public class Sorter {
      * @return int[]: The sorted int array;
      */
     public int[] sort(boolean desc) {
-        this.desc = desc;
-        return  recSort(0, sortedIntArr.length - 1);
+        int[] arr = intArr;
+        try {
+            this.desc = desc;
+            arr = recSort(0, sortedIntArr.length - 1);
+        } catch (StackOverflowError e) {
+            LOG.error("Error: Stack overflow | " + e.getMessage());
+            LOG.error("Zu viele Rekursionsaufrufe. Teilsortierte Liste wird zurückgegeben!");
+        }
+        return arr;
     }
 
     /**
@@ -58,11 +65,14 @@ public class Sorter {
      * @param r Right index of the array
      * @return The sorted Array
      */
-    private int[] recSort(int l, int r) {
+    private int[] recSort(int l, int r) throws StackOverflowError {
         int q;
         if (l < r) {
-            if(desc) q = descPartition(l, r);
-            else q = partition(l, r);
+            if (desc) {
+                q = descPartition(l, r);
+            } else {
+                q = partition(l, r);
+            }
             recSort(l, q);
             recSort(q + 1, r);
         }
@@ -130,7 +140,6 @@ public class Sorter {
     }
 
     /**
-     *
      * @param index the very left index of the partition
      * @param range the size of the partition
      * @return If firstPivot is true it returns the first element of the partition, else it returns a random
@@ -148,6 +157,7 @@ public class Sorter {
 
     /**
      * Converts the passed integer array into a String.
+     *
      * @param arr The array that will be converted
      * @return String: The array as String with pattern as follows [1,2,3,4,...]
      */
@@ -164,6 +174,7 @@ public class Sorter {
 
     /**
      * Writes the sorted and unsorted array into a log file at D:\Development
+     *
      * @param duration Duration of the sorting process
      */
     public void writeToFile(long duration) {
