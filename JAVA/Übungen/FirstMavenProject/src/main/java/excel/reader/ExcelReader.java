@@ -29,6 +29,9 @@ public class ExcelReader {
 
     // ############################# Getter/Setter  ####################################
 
+    public ArrayList<ExcelRowBeans> getRows(){
+        return rows;
+    }
     public String getPath() {
         return path;
     }
