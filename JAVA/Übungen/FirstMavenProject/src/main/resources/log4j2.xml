@@ -18,7 +18,7 @@
 <Configuration status="info" >
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%m%n"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%-5level] [%t] %c:%L |:  %m%n"/>
             <Filters>
                 <RegexFilter regex="Success:[^\n]*|Error:[^\n]*|New Sorting Operation[^\t]*" onMatch="DENY" onMismatch="Accept"/>
             </Filters>
@@ -32,14 +32,11 @@
         </File>
 
         <File name="LOG_FILE" fileName="C:\temp\logging.log">
-            <PatternLayout pattern="[%d] %-5p %c{1}:%L |: %m%n"/>
-            <Filters>
-                <RegexFilter regex="Success:[^\n]*|Error:[^\n]*" onMatch="Accept" onMismatch="Deny"/>
-            </Filters>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%-5level] [%t] %c:%L |:  %m%n"/>
         </File>
 
         <File name="ERROR_FILE" fileName="C:\temp\error.log">
-            <PatternLayout pattern="[%d] %-5p %c{1}:%L |: %m%n"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%-5level] [%t] %c:%L |:  %m%n"/>
             <Filters>
                 <RegexFilter regex="Error:[^\n]*" onMatch="Accept" onMismatch="Deny"/>
             </Filters>
@@ -55,7 +52,7 @@
 
 
     <Loggers>
-        <Root level="info">
+        <Root level="error">
             <AppenderRef ref="LOG_FILE"/>
             <AppenderRef ref="Console"/>
             <AppenderRef ref="OPERATION_FILE"/>

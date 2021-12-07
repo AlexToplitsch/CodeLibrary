@@ -1,15 +1,19 @@
 package excel.beans.row;
 
-import excel.reader.ExcelReader;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.poi.ss.format.CellDateFormatter;
 import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Objects;
 
 public class ExcelRowBeans implements Serializable {
     // ######################## Properties ###########################################
+    private Logger log = LogManager.getLogger(ExcelRowBeans.class);
+
     private Cell ID_Zeile;
     private Cell $Projektbezeichnung;
     private Cell Zeilenbezeichnung;
@@ -55,6 +59,16 @@ public class ExcelRowBeans implements Serializable {
     }
 
     public void setStart(Cell start) {
+        if (start != null) {
+            CellDateFormatter formatter = new CellDateFormatter("yyyy-MM-dd");
+            try {
+                String date = (start.getDateCellValue().toString() != "") ?
+                        formatter.format(start.getDateCellValue()) : "null";
+                start.setCellValue(date);
+            } catch (Exception e) {
+                log.warn(e.getMessage());
+;            }
+        }
         Start = start;
     }
 
@@ -71,6 +85,16 @@ public class ExcelRowBeans implements Serializable {
     }
 
     public void setDatum_Endfixierung(Cell datum_Endfixierung) {
+        if (datum_Endfixierung != null) {
+            CellDateFormatter formatter = new CellDateFormatter("yyyy-MM-dd");
+            try {
+                String date = (datum_Endfixierung.getDateCellValue().toString() != "") ?
+                        formatter.format(datum_Endfixierung.getDateCellValue()) : "null";
+                datum_Endfixierung.setCellValue(date);
+            } catch (Exception e) {
+                log.warn(e.getMessage());
+            }
+        }
         Datum_Endfixierung = datum_Endfixierung;
     }
 

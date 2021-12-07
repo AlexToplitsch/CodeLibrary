@@ -28,12 +28,16 @@ public class ExcelMenu {
     }
 
     //######################### Functions ###########################
+    public ArrayList<ExcelRowBeans> getRows(){
+        return rows;
+    }
+
     private void run() {
         if (choseFile()) {
             createRowObjects();
             int cellIndex = Integer.parseInt(chooseCellIndex());
             long time = System.currentTimeMillis();
-            Sorter.sort(rows, new ExcelComparator(cellIndex, false));
+            Sorter.sort(rows, new ExcelComparator(cellIndex, true));
             time = System.currentTimeMillis() - time;
             System.out.println("Dauer: " + time);
             rows.toArray();
@@ -79,8 +83,8 @@ public class ExcelMenu {
      * @return The input from the terminal
      */
     private String chooseCellIndex() {
-        logger.info("Nach welcher Spalte wollen Sie sortieren?");
-        logger.info("ID Zeile: [0], $Projektbezeichnung: [1], Zeilenbezeichnung: [2], Start: [3], Prozent Fretigstellung: [4]," + " Datum Endfixierung: [5], Abteilung: [6], Bemerkung:  [7]");
+        System.out.println("Nach welcher Spalte wollen Sie sortieren?");
+        System.out.println("ID Zeile: [0], $Projektbezeichnung: [1], Zeilenbezeichnung: [2], Start: [3], Prozent Fretigstellung: [4]," + " Datum Endfixierung: [5], Abteilung: [6], Bemerkung:  [7]");
         String decision;
         while (true) {
             switch (decision = in.nextLine()) {
@@ -94,7 +98,7 @@ public class ExcelMenu {
                 case "7":
                     return decision;
                 default:
-                    logger.info("Geben Sie eine Zahl zwischen 0 und 7 ein!");
+                    System.out.println("Geben Sie eine Zahl zwischen 0 und 7 ein!");
             }
         }
     }
