@@ -10,6 +10,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class ExcelReader {
+    private final boolean firstRowColumnHeader;
     // ############################# Properties ######################################
     Logger LOG = LogManager.getLogger(ExcelReader.class);
     ArrayList<ExcelRowBeans> rows = new ArrayList<>();
@@ -22,16 +23,18 @@ public class ExcelReader {
 
 
     // ############################# Constructor #####################################
-    public ExcelReader(String path) {
+    public ExcelReader(String path, boolean firstRowColumnHeader) {
         this.path = path;
+        this.firstRowColumnHeader = firstRowColumnHeader;
     }
 
 
     // ############################# Getter/Setter  ####################################
 
-    public ArrayList<ExcelRowBeans> getRows(){
+    public ArrayList<ExcelRowBeans> getRows() {
         return rows;
     }
+
     public String getPath() {
         return path;
     }
@@ -110,9 +113,12 @@ public class ExcelReader {
         for (Sheet sheet : wb) {
             for (Row row : sheet) {
                 if (isRowNotEmpty(row)) {
-                    fillCells(row);
+                    rows.add(createRowObject(row));
                 }
             }
+        }
+        if (firstRowColumnHeader) {
+            rows.remove(0);
         }
     }
 
@@ -121,7 +127,7 @@ public class ExcelReader {
      *
      * @param row Row with cells to fill it into the fields of the ExcelRowBeans object
      */
-    private void fillCells(Row row) {
+    private ExcelRowBeans createRowObject(Row row) {
         ExcelRowBeans beansRow = new ExcelRowBeans();
         beansRow.setID_Zeile(row.getCell(0));
         beansRow.set$Projektbezeichnung(row.getCell(1));
@@ -131,7 +137,7 @@ public class ExcelReader {
         beansRow.setDatum_Endfixierung(row.getCell(5));
         beansRow.setAbteilung(row.getCell(6));
         beansRow.setBemerkungen(row.getCell(7));
-        this.rows.add(beansRow);
+        return beansRow;
     }
 
     /**
@@ -141,6 +147,9 @@ public class ExcelReader {
      * @return boolean: True if the row is not empty; False if the row is empty
      */
     public boolean isRowNotEmpty(Row row) {
+        if(row == null){
+            return false;
+        }
         for (Cell cell : row) {
             if (cell.getCellType() != CellType.BLANK) {
                 return true;

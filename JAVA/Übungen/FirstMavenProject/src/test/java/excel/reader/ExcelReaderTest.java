@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 
 public class ExcelReaderTest {
-    ExcelReader reader = new ExcelReader("C:\\Users\\toplitsc\\Downloads\\7000_MPM_Milestones_Eng_Dev.xls");
+    ExcelReader reader = new ExcelReader("C:\\Users\\toplitsc\\Downloads\\7000_MPM_Milestones_Eng_Dev.xls", true);
         @Test
         public void readTest(){
             try {

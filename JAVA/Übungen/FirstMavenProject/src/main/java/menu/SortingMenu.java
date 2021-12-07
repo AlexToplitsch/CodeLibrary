@@ -1,12 +1,11 @@
 package menu;
 
 
-import algorithms.sorting.Sorter;
+import algorithms.sorting.IntArrSorter;
 import arithmetic.operations.Calculator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.Random;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -27,21 +26,21 @@ public class SortingMenu {
     // ##### Functions #####
 
     /**
-     * Calls a bunch of functions initialises the Sorter, calls the function that sorts the array
+     * Calls a bunch of functions initialises the IntArrSorter, calls the function that sorts the array
      * and prints the unsorted and sorted array
      */
     private void run() {
         decideGenORInput();
         boolean desc = decideAscDesc();
         boolean firstPivot = decideFirstPivot();
-        Sorter sorter = new Sorter(arr, firstPivot);
+        IntArrSorter intArrSorter = new IntArrSorter(arr, firstPivot);
         long time = System.currentTimeMillis();
-        sorter.sort(desc);
+        intArrSorter.sort(desc);
         time = System.currentTimeMillis() - time;
         LOG.info("Sortierdauer: " + time + "ms");
-        sorter.writeToFile(time);
+        intArrSorter.writeToFile(time);
         time = System.currentTimeMillis();
-        sorter.sort(desc);
+        intArrSorter.sort(desc);
         time = System.currentTimeMillis() - time;
         LOG.info("Sortierdauer: " + time + "ms");
     }

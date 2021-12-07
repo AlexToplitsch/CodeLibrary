@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class SorterTestCase {
+public class IntArrSorterTestCase {
     private final int[] case1 = new int[]{7,8,4,2,5,9,4,6,7,4,5,4,9,19,20,15,16,71,15};
     private final int[] resAsc1 = new int[] {2,4,4,4,4,5,5,6,7,7,8,9,9,15,15,16,19,20,71};
     private final int[] resDesc1 = new int[] {71,20,19,16,15,15,9,9,8,7,7,6,5,5,4,4,4,4,2};
@@ -14,15 +14,15 @@ public class SorterTestCase {
             456,789,1023,1024,1025,10111,10123};
     private final int [] resDesc2 = new int[] {10123,10111,1025,1024,1023,789,456,123,15,
             15,13,12,12,10,9,8,7,5,-5,-9,-9,-9,-9,-10,-12};
-    Sorter sorter = new Sorter(case1.clone(), true);
+    IntArrSorter intArrSorter = new IntArrSorter(case1.clone(), true);
 
     /**
      * Testcase with firstPivot true and ascending order of an integer array
      */
     @Test
     public void ascSortFirstPivot1(){
-        sorter.setIntArr(case1.clone());
-        int[] res = sorter.sort(false);
+        intArrSorter.setIntArr(case1.clone());
+        int[] res = intArrSorter.sort(false);
         assertEquals(arrayToString(resAsc1), arrayToString(res));
     }
 
@@ -31,8 +31,8 @@ public class SorterTestCase {
      */
     @Test
     public void descSortFirstPivot1(){
-        sorter.setIntArr(case1.clone());
-        int[] res = sorter.sort(true);
+        intArrSorter.setIntArr(case1.clone());
+        int[] res = intArrSorter.sort(true);
         assertEquals(arrayToString(resDesc1), arrayToString(res));
     }
 
@@ -41,9 +41,9 @@ public class SorterTestCase {
      */
     @Test
     public void ascSortRandomPivot1(){
-        sorter.setIntArr(case1.clone());
-        sorter.setFirstPivot(false);
-        int[] res = sorter.sort(false);
+        intArrSorter.setIntArr(case1.clone());
+        intArrSorter.setFirstPivot(false);
+        int[] res = intArrSorter.sort(false);
         assertEquals(arrayToString(resAsc1), arrayToString(res));
     }
 
@@ -52,16 +52,16 @@ public class SorterTestCase {
      */
     @Test
     public void descSortRandomPivot1(){
-        sorter.setIntArr(case1.clone());
-        sorter.setFirstPivot(false);
-        int[] res = sorter.sort(true);
+        intArrSorter.setIntArr(case1.clone());
+        intArrSorter.setFirstPivot(false);
+        int[] res = intArrSorter.sort(true);
         assertEquals(arrayToString(resDesc1), arrayToString(res));
     }
 
     @Test
     public void ascSortFirstPivot2(){
-        sorter.setIntArr(case2.clone());
-        int[] res = sorter.sort(false);
+        intArrSorter.setIntArr(case2.clone());
+        int[] res = intArrSorter.sort(false);
         assertEquals(arrayToString(resAsc2), arrayToString(res));
     }
 
@@ -70,8 +70,8 @@ public class SorterTestCase {
      */
     @Test
     public void descSortFirstPivot2(){
-        sorter.setIntArr(case2.clone());
-        int[] res = sorter.sort(true);
+        intArrSorter.setIntArr(case2.clone());
+        int[] res = intArrSorter.sort(true);
         assertEquals(arrayToString(resDesc2), arrayToString(res));
     }
 
@@ -80,9 +80,9 @@ public class SorterTestCase {
      */
     @Test
     public void ascSortRandomPivot2(){
-        sorter.setIntArr(case2.clone());
-        sorter.setFirstPivot(false);
-        int[] res = sorter.sort(false);
+        intArrSorter.setIntArr(case2.clone());
+        intArrSorter.setFirstPivot(false);
+        int[] res = intArrSorter.sort(false);
         assertEquals(arrayToString(resAsc2), arrayToString(res));
     }
 
@@ -91,9 +91,9 @@ public class SorterTestCase {
      */
     @Test
     public void descSortRandomPivot2(){
-        sorter.setIntArr(case2.clone());
-        sorter.setFirstPivot(false);
-        int[] res = sorter.sort(true);
+        intArrSorter.setIntArr(case2.clone());
+        intArrSorter.setFirstPivot(false);
+        int[] res = intArrSorter.sort(true);
         assertEquals(arrayToString(resDesc2), arrayToString(res));
     }
 
