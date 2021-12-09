@@ -7,7 +7,7 @@ import org.apache.poi.ss.usermodel.Cell;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Date;
+import java.sql.Date;
 import java.util.Objects;
 
 public class ExcelRowBeans implements Serializable {
@@ -43,6 +43,10 @@ public class ExcelRowBeans implements Serializable {
     }
 
     public void set$Projektbezeichnung(Cell $Projektbezeichnung) {
+        if ($Projektbezeichnung != null) {
+            $Projektbezeichnung.setCellValue($Projektbezeichnung.toString().
+                    replaceAll("'", "''"));
+        }
         this.$Projektbezeichnung = $Projektbezeichnung;
     }
 
@@ -51,6 +55,10 @@ public class ExcelRowBeans implements Serializable {
     }
 
     public void setZeilenbezeichnung(Cell zeilenbezeichnung) {
+        if (zeilenbezeichnung != null) {
+            zeilenbezeichnung.setCellValue(zeilenbezeichnung.toString().
+                    replaceAll("'", "''"));
+        }
         Zeilenbezeichnung = zeilenbezeichnung;
     }
 
@@ -62,12 +70,12 @@ public class ExcelRowBeans implements Serializable {
         if (start != null) {
             CellDateFormatter formatter = new CellDateFormatter("yyyy-MM-dd");
             try {
-                String date = (start.getDateCellValue().toString() != "") ?
-                        formatter.format(start.getDateCellValue()) : "null";
+                Date date = new Date(start.getDateCellValue().getTime());
                 start.setCellValue(date);
             } catch (Exception e) {
                 log.warn(e.getMessage());
-;            }
+                start.setCellValue(new Date(0,0,0));
+            }
         }
         Start = start;
     }
@@ -88,21 +96,25 @@ public class ExcelRowBeans implements Serializable {
         if (datum_Endfixierung != null) {
             CellDateFormatter formatter = new CellDateFormatter("yyyy-MM-dd");
             try {
-                String date = (datum_Endfixierung.getDateCellValue().toString() != "") ?
-                        formatter.format(datum_Endfixierung.getDateCellValue()) : "null";
+                Date date = new Date(datum_Endfixierung.getDateCellValue().getTime());
                 datum_Endfixierung.setCellValue(date);
             } catch (Exception e) {
                 log.warn(e.getMessage());
             }
+            Datum_Endfixierung = datum_Endfixierung;
         }
-        Datum_Endfixierung = datum_Endfixierung;
     }
 
     public Cell getAbteilung() {
+
         return Abteilung;
     }
 
     public void setAbteilung(Cell abteilung) {
+        if (abteilung != null) {
+            abteilung.setCellValue(abteilung.toString().
+                    replaceAll("'", "''"));
+        }
         Abteilung = abteilung;
     }
 
@@ -111,6 +123,10 @@ public class ExcelRowBeans implements Serializable {
     }
 
     public void setBemerkungen(Cell bemerkungen) {
+        if (bemerkungen != null) {
+            bemerkungen.setCellValue(bemerkungen.toString().
+                    replaceAll("'", "''"));
+        }
         Bemerkungen = bemerkungen;
     }
 

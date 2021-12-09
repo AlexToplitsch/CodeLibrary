@@ -1,6 +1,4 @@
 package menu;
-//TODO: Menu gestalten für einlesen von indizes für Sheet, Row und Zelle
-//todo: Sortieren mit comparator
 
 import algorithms.sorting.Sorter;
 import excel.beans.row.ExcelRowBeans;
@@ -13,6 +11,7 @@ import org.apache.logging.log4j.Logger;
 import javax.swing.*;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class ExcelMenu {
@@ -22,28 +21,32 @@ public class ExcelMenu {
     Logger logger = LogManager.getLogger(ExcelMenu.class);
     Scanner in = new Scanner(System.in);
 
+
     //######################### Constructor #########################
     public ExcelMenu() {
         run();
     }
 
+
     //######################### Functions ###########################
-    public ArrayList<ExcelRowBeans> getRows(){
+    public ArrayList<ExcelRowBeans> getRows() {
         return rows;
     }
 
     private void run() {
         if (choseFile()) {
             createRowObjects();
-            int cellIndex = Integer.parseInt(chooseCellIndex());
-            long time = System.currentTimeMillis();
-            Sorter.sort(rows, new ExcelComparator(cellIndex, true));
-            time = System.currentTimeMillis() - time;
-            System.out.println("Dauer: " + time);
-            rows.toArray();
-
+            if (sort()) {
+                int cellIndex = Integer.parseInt(chooseCellIndex());
+                boolean desc = chooseDesc();
+                long time = System.currentTimeMillis();
+                Sorter.sort(rows, new ExcelComparator(cellIndex, desc));
+                time = System.currentTimeMillis() - time;
+                System.out.println("Sortierdauer: " + time);
+            }
         }
     }
+
 
     /**
      * Opens the JFileChooser and lets the user choose xls files to read
@@ -99,6 +102,47 @@ public class ExcelMenu {
                     return decision;
                 default:
                     System.out.println("Geben Sie eine Zahl zwischen 0 und 7 ein!");
+            }
+        }
+    }
+
+    /**
+     * Reads the next line from the terminal as long as the input is not "a" or "d" for ascending/descending order
+     *
+     * @return true if the input is "d", false, if the input is "a"
+     */
+    private boolean chooseDesc() {
+        System.out.println("In welcher Reihenfolge wollen Sie sortieren?");
+        System.out.print("Aufsteigend [a], Absteigend [d]: ");
+        while (true) {
+            switch (in.nextLine().toLowerCase(Locale.ROOT)) {
+                case "a":
+                    return false;
+                case "d":
+                    return true;
+                default:
+                    System.out.println("Geben Sie [a] für Aufsteigend und [d] für Absteigend ein!");
+            }
+        }
+    }
+
+    /**
+     * Reads the next line from the terminal as long as the input is not "j" or "n". It is choosing if the List should be sorted or
+     * not.
+     *
+     * @return true if the input is "j", false, if the input is "n"
+     */
+    private boolean sort() {
+        System.out.println("Wollen Sie sortieren?");
+        System.out.print("Ja [j], Nein [n]: ");
+        while (true) {
+            switch (in.nextLine().toLowerCase(Locale.ROOT)) {
+                case "n":
+                    return false;
+                case "j":
+                    return true;
+                default:
+                    System.out.println("Geben Sie [j] für ja und [n] für nein ein!");
             }
         }
     }
