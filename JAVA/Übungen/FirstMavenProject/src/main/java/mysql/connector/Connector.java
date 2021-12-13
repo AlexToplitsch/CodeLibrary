@@ -12,7 +12,6 @@ import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
 
-//todo: Inline documentation
 public class Connector {
     //####################### Properties #################################
     Logger log = LogManager.getLogger(Connector.class);
@@ -33,6 +32,12 @@ public class Connector {
 
 
     //######################### Public Functions ################################
+
+    /**
+     * @return the instance of this class due to singleton purposes
+     * @throws IOException            if not config file could not be located
+     * @throws ClassNotFoundException if the Class of the jdbc drive is not found
+     */
     public static Connector getInstance() throws IOException, ClassNotFoundException {
         if (connector == null) {
             connector = new Connector();
@@ -40,6 +45,13 @@ public class Connector {
         return connector;
     }
 
+    /**
+     * Inserts the values passed in the Cell array by executing the passed sql statement
+     *
+     * @param sql   the statement that will be executed (values in the sql statement has to be in question marks)
+     *              eq: insert into ... Values (?,?,?,...)
+     * @param cells the values for the statement; size of array has to be the same as the number of question marks
+     */
     public void insert(String sql, Cell[] cells) {
         try {
             if (connect()) {
@@ -53,22 +65,30 @@ public class Connector {
         }
     }
 
-    public void batchInsert(String sql, ArrayList<ExcelRowBeans> rows) {
+    /**
+     * Inserts the rows passed in the ArrayList that is passed. The amount of rows that are inserted, depends on the passed
+     * batchSize.
+     *
+     * @param sql       the statement that will be executed (values in the sql statement has to be in question marks)
+     *                  eq: insert into ... Values (?,?,?,...)
+     * @param rows      the rows that will be inserted into the database
+     * @param batchSize size of the batch (amount of rows that are inserted at once)
+     */
+    public void batchInsert(String sql, ArrayList<ExcelRowBeans> rows, int batchSize) {
         try {
             if (connect()) {
                 PreparedStatement stmt = con.prepareStatement(sql);
-                int batchSize = 0;
+                int counter = 0;
                 for (ExcelRowBeans row : rows) {
                     try {
                         prepareBatchInsert(new Cell[]{row.getID_Zeile(), row.get$Projektbezeichnung(),
                                 row.getZeilenbezeichnung(), row.getStart(), row.getProzent_Fertigstellung(),
                                 row.getDatum_Endfixierung(), row.getAbteilung(), row.getBemerkungen()}, stmt);
                         stmt.addBatch();
-                        batchSize++;
-                        if (batchSize == 50||rows.indexOf(row) == rows.size() -1) {
-                            batchSize = 0;
+                        counter++;
+                        if (counter == batchSize || rows.indexOf(row) == rows.size() - 1) {
+                            counter = 0;
                             stmt.executeBatch();
-                            stmt.clearParameters();
                         }
 
                     } catch (SQLException e) {
@@ -84,6 +104,11 @@ public class Connector {
         }
     }
 
+    /**
+     * @param sql the command that is executed
+     * @return The ResultSet of a sql select command
+     * @throws SQLException if there is an error in your sql syntax or some issues with the database
+     */
     public ResultSet select(String sql) throws SQLException {
         if (connect()) {
             Statement stmt = con.createStatement();
@@ -95,6 +120,12 @@ public class Connector {
         }
     }
 
+    /**
+     * Performs the delete command that is passed
+     *
+     * @param sql the command that is executed
+     * @throws SQLException if there is an error in your sql syntax or some issues with the database
+     */
     public void delete(String sql) throws SQLException {
         if (connect()) {
             Statement stmt = con.createStatement();
@@ -103,21 +134,76 @@ public class Connector {
         } else {
             throw new SQLException("No connection to Database available!");
         }
+        try {
+            con.close();
+        } catch (SQLException e) {
+            log.error(e.getMessage());
+        }
+
     }
 
-    public void callStatement(String sql) throws SQLException {
-        CallableStatement stmt = con.prepareCall(sql);
+    /**
+     * Executes the passed stored procedure batch wise
+     *
+     * @param sql       the call statement of the stored procedures
+     * @param rows      the rows that will be inserted
+     * @param batchSize row count, that will be inserted at once
+     */
+    public void storedInsert(String sql, ArrayList<ExcelRowBeans> rows, int batchSize) {
+        try {
+            if (connect()) {
+                CallableStatement stmt = con.prepareCall(sql);
+                int counter = 0;
+                for (ExcelRowBeans row : rows) {
+                    try {
+                        prepareBatchInsert(new Cell[]{row.getID_Zeile(), row.get$Projektbezeichnung(),
+                                row.getZeilenbezeichnung(), row.getStart(), row.getProzent_Fertigstellung(),
+                                row.getDatum_Endfixierung(), row.getAbteilung(), row.getBemerkungen()}, stmt);
+                        stmt.addBatch();
+                        counter++;
+                        if (counter == batchSize || rows.indexOf(row) == rows.size() - 1) {
+                            counter = 0;
+                            stmt.executeBatch();
+                            stmt.clearParameters();
+                        }
+
+                    } catch (SQLException e) {
+                        log.error(e.getMessage());
+                    }
+                }
+            } else {
+                log.error("No connection available!");
+            }
+            log.debug("Insert statement successfully executed!");
+        } catch (SQLException e) {
+            log.error(e.getMessage());
+        } finally {
+            try {
+                con.close();
+            } catch (SQLException e) {
+                log.error(e.getMessage());
+            }
+        }
+
     }
 
 
     //######################### Private Functions ################################
+
+    /**
+     * Builds a connection to the database
+     *
+     * @return true if it is connected, false if no connection is available
+     */
     private boolean connect() {
-        if (connected) return true;
+
         try {
-            this.con = DriverManager.getConnection("jdbc:mysql://" + this.host + "/" + this.db, this.user, this.password);
-            log.debug("Successfully connected to Database: " + this.host + "/" + this.db);
-            connected = true;
-            return true;
+            if(con.isClosed()) {
+                this.con = DriverManager.getConnection("jdbc:mysql://" + this.host + "/" + this.db, this.user, this.password);
+                log.debug("Successfully connected to Database: " + this.host + "/" + this.db);
+                connected = true;
+                return true;
+            }
         } catch (SQLException e0) {
             log.error(e0.getMessage());
             log.error("Error: " + e0.getMessage());
@@ -125,6 +211,11 @@ public class Connector {
         return false;
     }
 
+    /**
+     * Reads the config.ini file from the recourse folder in the project folder and stores the data in the properties
+     *
+     * @throws IOException if the config file is not available
+     */
     private void readConfigFile() throws IOException {
         Ini.Section conf = new Ini(new FileReader("src/main/resources/config.ini")).get("DATABASE");
         this.host = conf.get("host");
@@ -134,6 +225,13 @@ public class Connector {
         log.debug("Successfully read ini file!");
     }
 
+    /**
+     * Prepares and executes the passed sql statement
+     *
+     * @param sql   statement (has to be insert statement)
+     * @param cells array of cells for value replacement
+     * @throws SQLException if there is an error in the sql statement or something went wrong with the database
+     */
     private void executeInsert(String sql, Cell[] cells) throws SQLException {
         PreparedStatement stmt = con.prepareStatement(sql);
         String proj = (cells[1] == null) ? null : cells[1].getStringCellValue();
@@ -157,6 +255,12 @@ public class Connector {
         stmt.execute();
     }
 
+    /**
+     * Prepares the passed prepared statement
+     * @param cells values for the insert statement
+     * @param stmt the statement that will be prepared
+     * @throws SQLException if something during the preparation goes wrong
+     */
     private void prepareBatchInsert(Cell[] cells, PreparedStatement stmt) throws
             SQLException {
         String proj = (cells[1] == null) ? null : cells[1].getStringCellValue();
